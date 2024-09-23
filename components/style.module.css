@@ -1,0 +1,7 @@
+.talk_gradient{
+    background: radial-gradient(
+    circle at 50% 150%, 
+    #fdd39d84, 
+    transparent
+  );
+}

@@ -2,8 +2,8 @@ import React from "react";
 import Navbar from "../NavBar";
 import Footer from "../Footer";
 
-const Layout = ({ children }) => {
-    return <div>
+const Layout = ({ className, children }) => {
+    return <div className={className}>
         <Navbar />
         {children}
         <Footer />

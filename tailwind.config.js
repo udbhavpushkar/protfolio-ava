@@ -9,7 +9,11 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        crimson: ['"Crimson Pro"', 'serif'], // Reference the CSS variable
+      },
+    },
   },
   plugins: [
     require('tailwind-scrollbar-hide')

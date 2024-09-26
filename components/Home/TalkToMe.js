@@ -1,24 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import { FaArrowRight } from "react-icons/fa6"
 import style from "../style.module.css"
 import Link from "next/link";
-import { Crimson_Pro } from "next/font/google";
-
-const sans = Crimson_Pro({
-    weight: ["400", "500", "600", "700", "800", "900"],
-    subsets: ["latin"],
-    style: ["normal", "italic"],
-
-});
-const mono = Crimson_Pro({
-    weight: ["400", "500", "600", "700", "800", "900"],
-    subsets: ["latin"],
-    style: ["normal", "italic"],
-});
 
 const TalkToMe = () => {
-    return <div className={`bg-white ${sans.className} ${mono.className}`}>
+    return <div className={`bg-white font-crimson`}>
         <div className={`${style.talk_gradient}`}>
             <div className="py-6 text-center max-w-[900px] mx-auto">
                 <div className="font-semibold mb-3 text-3xl">Talk to me. I am Fabulous!</div>

@@ -39,3 +39,34 @@ a {
   text-decoration: none;
 }
 
+/* App.css */
+.typewriter-container {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black; /* Blinking cursor effect */
+}
+
+.typewriter-text {
+  display: inline-block;
+  animation: typewriter 4s steps(12) 1s infinite normal both, blink 1s step-end infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
+}

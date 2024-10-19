@@ -24,7 +24,7 @@ const AboutMe = () => {
                 </div>
             </div>
             <div>
-                <VideoPlayer videoId={'ivukpkSMoYQ'} imageUrl="/images/video-1.png" />
+                <VideoPlayer videoId={'ivukpkSMoYQ'} imageUrl="/images/video-1.png" width={313} height={525} />
             </div>
         </div>
     </div>

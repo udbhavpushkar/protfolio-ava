@@ -7,17 +7,17 @@ import Vimeo from '@u-wave/react-vimeo';
 const MediaCarousel = ({ mediaItems, height, width }) => {
 
   return (
-    <Carousel autoPlay infiniteLoop interval={6000} dynamicHeight width={width}>
+    <Carousel autoPlay infiniteLoop interval={6000} dynamicHeight width={width} showThumbs={false}>
       {mediaItems.map((item, index) => (
-        <div key={index} className={`w-[${width}px] h-[${height}px] absolute`}>
+        <div key={index} className={``}>
           {item.type === 'image' ? (
             <Image
               className='rounded-3xl object-contain'
               src={item.src}
               alt={`media-${index}`}
-              // width={width}
-              // height={height}
-              fill
+              sizes='100vw'
+              width={width}
+              height={height}
             />
           ) : (
             <div style={{ position: 'relative', paddingTop: '56.25%' }}>

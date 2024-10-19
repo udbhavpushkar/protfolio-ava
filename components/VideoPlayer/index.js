@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.min.css';
 
-const VideoPlayer = ({ videoId, imageUrl }) => {
+const VideoPlayer = ({ videoId, imageUrl, width, height }) => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -11,8 +11,8 @@ const VideoPlayer = ({ videoId, imageUrl }) => {
             {/* Trigger image for opening the modal */}
             <Image
                 className="cursor-pointer"
-                width={313}
-                height={525}
+                width={width}
+                height={height}
                 src={imageUrl}
                 alt="Play Video"
                 onClick={() => setIsOpen(true)}

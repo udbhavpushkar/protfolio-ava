@@ -70,3 +70,11 @@ a {
     border-color: black;
   }
 }
+
+.gardient-1{
+  background: radial-gradient(
+  circle at 200% -50%, 
+  #fdd39d84, 
+  white
+);
+}

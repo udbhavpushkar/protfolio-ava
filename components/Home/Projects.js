@@ -1,7 +1,9 @@
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React from "react";
 
 export const Turient = () => {
+    const router = useRouter()
     return <div className="bg-[#E3E6FF] rounded-2xl flex py-5 pl-7 items-center drop-shadow-lg">
         <div className="w-3/5">
             <div className="text-2xl font-semibold mt-3">Turient : Your Online School!</div>
@@ -9,7 +11,9 @@ export const Turient = () => {
                 Spearheaded content-related tasks, including designing,
                 writing, editing, and testing clear, compelling in-product language
             </div>
-            <div className="rounded-3xl text-sm mt-4 font-semibold bg-[#323C98] text-white py-2 px-5 w-fit drop-shadow-sm">See Full Project</div>
+            <div onClick={() => { router.push("/work/turient") }} href="/work/turient" className="rounded-3xl text-sm mt-4 font-semibold bg-[#323C98] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer">
+                See Full Project
+            </div>
         </div>
         <div className="mr-3 ml-3">
             <Image src="/images/turient.png" alt="turient" width={137} height={179} />

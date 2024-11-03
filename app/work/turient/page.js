@@ -5,7 +5,7 @@ import Image from "next/image";
 import Vimeo from '@u-wave/react-vimeo';
 import { LIST_1, LIST_2, LIST_3 } from "./constants";
 
-export default function Work() {
+export default function Turient() {
     return <Layout>
         <div>
             <div className="bg-white w-full">

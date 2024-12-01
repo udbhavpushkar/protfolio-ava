@@ -29,18 +29,18 @@ export default function Glampies() {
             </div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl  mt-8">
               <span className="font-semibold">My Role: <br />
-              As the Content Designer for the Glampies, my role encompassed:{" "}</span>
+                As the Content Designer for the Glampies, my role encompassed:{" "}</span>
               <br />
               <ul className="list-disc ml-6">
                 <li>
-                  
-                <span className="font-semibold">Content Designing:</span> Developed comprehensive content that
+
+                  <span className="font-semibold">Content Designing:</span> Developed comprehensive content that
                   aligned with Glampies&apos; brand identity and business goals.
                   This included defining the tone of voice, key messages, and
                   content structure.
                 </li>
                 <li>
-                <span className="font-semibold">Content Creation:</span> I was responsible for{" "}
+                  <span className="font-semibold">Content Creation:</span> I was responsible for{" "}
                   <span className="text-[#8329AA] font-semibold">
                     all content-related tasks, including designing, writing,
                     editing, and testing clear, compelling in-product language,
@@ -51,13 +51,13 @@ export default function Glampies() {
                   taxonomies
                 </li>
                 <li>
-                <span className="font-semibold">Collaboration:</span> Worked closely with UX designers, web
+                  <span className="font-semibold">Collaboration:</span> Worked closely with UX designers, web
                   developers, and marketing teams to ensure the content was
                   seamlessly integrated into the website’s design and met user
                   needs.
                 </li>
                 <li>
-                <span className="font-semibold">Project Management:</span> Led the content creation process, set
+                  <span className="font-semibold">Project Management:</span> Led the content creation process, set
                   timelines, and coordinated with various stakeholders to ensure
                   the project stayed on track and met all deadlines.
                 </li>
@@ -265,7 +265,7 @@ export default function Glampies() {
         <div className="max-w-[1200px] mx-auto py-10 font-crimson">
           <div className="rounded-xl shadow-lg w-full p-6 flex justify-between  bg-[#F4F0E7]">
             <Image
-              className="mx-auto rounded-xl shadow my-10"
+              className="mx-auto my-10"
               src="/images/gl5-a.png"
               alt="gl4"
               height={629}
@@ -354,7 +354,7 @@ export default function Glampies() {
                 alt="gl8-a"
                 height={384}
                 width={702}
-                style={{ height: '100%', width: 'auto' }} 
+                style={{ height: '100%', width: 'auto' }}
               />
               <Image
                 className="mx-auto rounded-lg"
@@ -375,7 +375,7 @@ export default function Glampies() {
                 The Glampies website successfully addressed the initial
                 challenge, delivering a visually appealing and user-friendly
                 platform that effectively communicated the brand's luxurious
-                glamping experience. 
+                glamping experience.
               </div>
               <div className="max-w-[1200px] mx-auto font-crimson py-12 ">
                 <div className="text-3xl font-semibold">

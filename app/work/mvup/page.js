@@ -4,17 +4,6 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Vimeo from "@u-wave/react-vimeo";
 
-import {
-  AUDIENCE_CARDS,
-  CHALLENGES_LIST,
-  COMPETITOR_LIST,
-  IMPLEMENTATION_LIST,
-  KEY_FINDINGS,
-  MARKET_SEGMENT_LIST,
-  TRENDS_LIST,
-  USER_RESEARCH_LIST,
-} from "./constants";
-
 export default function Mvup() {
   return (
     <Layout>
@@ -191,7 +180,7 @@ export default function Mvup() {
             <div className="text-2xl my-5 font-semibold ">
               Product Use Cases, Vision & USPs
             </div>
-            <div className="flex flex-col justify-center  items-center space-y-6   shadow-pink p-6 bg-[#FFFCDE] w-[1200px] h-[1174px]">
+            <div className="flex flex-col justify-center items-center space-y-6 shadow-pink p-6 bg-[#FFFCDE] w-[1200px] h-[1174px] rounded">
               <Image
                 className="mx-auto rounded-lg"
                 src="/images/mvp1.png"
@@ -236,7 +225,7 @@ export default function Mvup() {
                 </li>
               </ul>
             </div>
-            <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] ">
+            <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] rounded">
               <Image
                 className="mx-auto rounded-lg"
                 src="/images/mvp3.png"
@@ -268,7 +257,7 @@ export default function Mvup() {
                   of MVUP.
                 </li>
               </ul>
-              <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] w-[1200px]">
+              <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
                 <Image
                   className="mx-auto rounded-lg"
                   src="/images/mvp4.png"
@@ -295,7 +284,7 @@ export default function Mvup() {
             <div className="text-3xl font-semibold">
               Wireframes of some final designs:{" "}
             </div>
-            <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] w-[1200px]  ">
+            <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
               {" "}
               <Image
                 className="mx-auto rounded-lg"
@@ -333,7 +322,7 @@ export default function Mvup() {
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto py-14 font-crimson">
             <div className="text-3xl font-semibold">Mobile View: </div>
-            <div className=" flex justify-center items-center  mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] h-[600px]">
+            <div className=" flex justify-center items-center  mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] h-[600px] rounded">
               <Image
                 className="mx-auto rounded-lg"
                 src="/images/mvp8.png"
@@ -358,7 +347,7 @@ export default function Mvup() {
             <div className="text-3xl font-semibold">
               Marketing Reel for MVUP:{" "}
             </div>
-            <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] ">
+            <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
               <div className="w-[375px] ">
                 <iframe
                   width="100%"
@@ -396,14 +385,14 @@ export default function Mvup() {
                 width={726}
               />
             </div>
-             <div
-                    onClick={() => {
-                      window.location.assign("https://mvup.leanpitch.com/");
-                    }}
-                    className="rounded-3xl text-sm mt-4 font-semibold bg-[#0D1A71] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
-                  >
-                    Vist Mvup <span className="ml-2">→</span>
-                  </div>
+            <div
+              onClick={() => {
+                window.location.assign("https://mvup.leanpitch.com/");
+              }}
+              className="rounded-3xl text-sm mt-4 font-semibold bg-[#0D1A71] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
+            >
+              Vist Mvup <span className="ml-2">→</span>
+            </div>
           </div>
         </div>
 

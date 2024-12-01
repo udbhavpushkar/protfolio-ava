@@ -6,6 +6,7 @@ import MajorProjects from "@/components/Home/MajorProjects";
 import AboutMe from "@/components/Home/AboutMe";
 import Wins from "@/components/Home/Wins";
 import TalkToMe from "@/components/Home/TalkToMe";
+import Recommendations from "@/components/Home/Recommendations";
 import FooterBanner from "@/components/Footer/FooterBanner";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <AboutMe />
       <Wins />
       <TalkToMe />
+      <Recommendations />
       <FooterBanner link="/resume" text="See Resume" />
     </Layout>
   );

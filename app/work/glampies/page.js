@@ -28,19 +28,22 @@ export default function Glampies() {
               The Glampies : A Glamourous Gateaway!
             </div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl  mt-8">
-              <span className="font-semibold">My Role: <br />
-                As the Content Designer for the Glampies, my role encompassed:{" "}</span>
+              <span className="font-semibold">
+                My Role: <br />
+                As the Content Designer for the Glampies, my role encompassed:{" "}
+              </span>
               <br />
               <ul className="list-disc ml-6">
                 <li>
-
-                  <span className="font-semibold">Content Designing:</span> Developed comprehensive content that
-                  aligned with Glampies&apos; brand identity and business goals.
-                  This included defining the tone of voice, key messages, and
-                  content structure.
+                  <span className="font-semibold">Content Designing:</span>{" "}
+                  Developed comprehensive content that aligned with
+                  Glampies&apos; brand identity and business goals. This
+                  included defining the tone of voice, key messages, and content
+                  structure.
                 </li>
                 <li>
-                  <span className="font-semibold">Content Creation:</span> I was responsible for{" "}
+                  <span className="font-semibold">Content Creation:</span> I was
+                  responsible for{" "}
                   <span className="text-[#8329AA] font-semibold">
                     all content-related tasks, including designing, writing,
                     editing, and testing clear, compelling in-product language,
@@ -51,15 +54,16 @@ export default function Glampies() {
                   taxonomies
                 </li>
                 <li>
-                  <span className="font-semibold">Collaboration:</span> Worked closely with UX designers, web
-                  developers, and marketing teams to ensure the content was
-                  seamlessly integrated into the website’s design and met user
-                  needs.
+                  <span className="font-semibold">Collaboration:</span> Worked
+                  closely with UX designers, web developers, and marketing teams
+                  to ensure the content was seamlessly integrated into the
+                  website’s design and met user needs.
                 </li>
                 <li>
-                  <span className="font-semibold">Project Management:</span> Led the content creation process, set
-                  timelines, and coordinated with various stakeholders to ensure
-                  the project stayed on track and met all deadlines.
+                  <span className="font-semibold">Project Management:</span> Led
+                  the content creation process, set timelines, and coordinated
+                  with various stakeholders to ensure the project stayed on
+                  track and met all deadlines.
                 </li>
               </ul>
             </div>
@@ -354,7 +358,7 @@ export default function Glampies() {
                 alt="gl8-a"
                 height={384}
                 width={702}
-                style={{ height: '100%', width: 'auto' }}
+                style={{ height: "100%", width: "auto" }}
               />
               <Image
                 className="mx-auto rounded-lg"
@@ -362,7 +366,7 @@ export default function Glampies() {
                 alt="gl8-b"
                 height={384}
                 width={383}
-                style={{ height: '100%', width: 'auto' }}
+                style={{ height: "100%", width: "auto" }}
               />
             </div>
           </div>
@@ -391,19 +395,6 @@ export default function Glampies() {
                     </div>
                   </div>
                 ))}
-
-                {/* <div className="flex justify-center items-center space-y-8 h-[220px]">
-                  <div className="flex justify-center items-center rounded-xl shadow-lg p-6 bg-[#F2FFF9] w-[1200px] h-[220px]">
-                    <Image
-                      className="rounded-lg"
-                      src="/images/gl9.png"
-                      alt="gl9"
-                      height={200}
-                      width={1100}
-                    />
-                  </div>
-                  <div className=" flex justify-center items-center rounded-xl shadow-lg p-6 bg-[#F4F0E7] w-[1200px] h-[485px]"></div>
-                </div> */}
               </div>
               <div className="flex flex-col items-center space-y-8 ">
                 {/* Top Row */}
@@ -432,7 +423,7 @@ export default function Glampies() {
                     }}
                     className="rounded-3xl text-sm mt-4 font-semibold bg-[#2F865F] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
                   >
-                    Vist Glampies <span className="ml-2">→</span>
+                    Visit Glampies <span className="ml-2">→</span>
                   </div>
                 </div>
               </div>

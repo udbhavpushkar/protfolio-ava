@@ -185,7 +185,7 @@ export default function Glampies() {
             <div className="my-5">
               <div className="text-2xl">
                 Based on the user research and sales team suggestions, I
-                developed the information architecture for Glampies' website.
+                developed the information architecture for Glampies&apos; website.
                 Structured the content to optimize navigation, making
                 information easily accessible and engaging.
                 <br />
@@ -219,12 +219,12 @@ export default function Glampies() {
             <div className="my-5">
               <div className="text-2xl">
                 It was crucial to articulate a clear and compelling content
-                identity that encapsulates our brand's essence and resonates
+                identity that encapsulates our brand&apos;s essence and resonates
                 deeply with our target audience. Hence to establish an emotional
                 connection with our audience, I developed a compelling brand
                 narrative centred around the concept of{" "}
                 <span className="bg-[#ffd7e5]">
-                  'Reconnect with Nature, Rediscover Luxury’.
+                  &apos;Reconnect with Nature, Rediscover Luxury’.
                 </span>
               </div>
             </div>
@@ -246,7 +246,7 @@ export default function Glampies() {
             <div className="text-3xl font-semibold">Brand Voice</div>
             <div className="my-1">
               <div className="text-2xl">
-                Here's a detailed explanation of our content identity:
+                Here&apos;s a detailed explanation of our content identity:
               </div>
               <div className="max-w-[1200px] mx-auto font-crimson py-10">
                 <div className="text-3xl font-semibold">Tone</div>
@@ -374,7 +374,7 @@ export default function Glampies() {
               <div className="text-2xl">
                 The Glampies website successfully addressed the initial
                 challenge, delivering a visually appealing and user-friendly
-                platform that effectively communicated the brand's luxurious
+                platform that effectively communicated the brand&apos;s luxurious
                 glamping experience.
               </div>
               <div className="max-w-[1200px] mx-auto font-crimson py-12 ">

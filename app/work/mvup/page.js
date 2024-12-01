@@ -87,7 +87,7 @@ export default function Mvup() {
           </div>
           <div className=" text-2xl mt-4">
             <ul className="list-disc ml-8">
-              <li>Understand the target audience's needs and preferences.</li>
+              <li>Understand the target audience&apos;s needs and preferences.</li>
               <li>Identify pain points.</li>
               <li>
                 Gather insights on how to effectively communicate course value,
@@ -98,7 +98,7 @@ export default function Mvup() {
           <div className="my-5">
             <div className="text-2xl">
               To understand the needs and preferences of prospective students
-              and ensure the content met our target audience's requirements, I
+              and ensure the content met our target audience&apos;s requirements, I
               conducted various user research methods, including:
             </div>
           </div>

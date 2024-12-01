@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         crimson: ['"Crimson Pro"', 'serif'], // Reference the CSS variable
       },
+      boxShadow: {
+        'pink': '0px 10px 20px rgba(255, 128, 153, 0.5)', // pink shadow only at the bottom
+      },
     },
   },
   plugins: [

@@ -83,7 +83,7 @@ export default function Leanpitch() {
                             motivations we highlighted what matters most to users.
                         </div>
                     </div>
-                    <div className="rounded-lg shadow-xl w-full mt-10">
+                    <div className="rounded-lg shadow-b-pink- w-full mt-10">
                         <Image className="mx-auto " src="/images/lp4.png" alt="design" height={440} width={632} />
                     </div>
                 </div>
@@ -183,7 +183,7 @@ export default function Leanpitch() {
                             This includes:
                             <ul className="list-disc text-[#626262] italic">
                                 {IMPLEMENTATION_LIST.map((item, index) => (
-                                    <li key={index}>{item}</li>
+                                    <li key={index}>{item}</li> 
                                 ))}
                             </ul>
                         </div>

@@ -331,7 +331,7 @@ export default function Leanpitch() {
               <div>
                 By adopting a learner-centric approach and leveraging various
                 training modes, we created tailored learning experiences that
-                cater to the diverse needs and preferences of learners. 
+                cater to the diverse needs and preferences of learners.
               </div>
             </div>
             <div className="my-5 bg-[#F0F6FB] rounded-xl shadow-pink">
@@ -377,7 +377,7 @@ export default function Leanpitch() {
                   aspiring professionals to share their knowledge, insights, and
                   best practices.{" "}
                 </span>
-                Preceptors is more than just a platform - it's a
+                Preceptors is more than just a platform - it&apos;s a
                 community-driven ecosystem{" "}
                 <span className="bg-[#ffd7e5]">
                   dedicated to empowering individuals to excel in their careers
@@ -414,9 +414,9 @@ export default function Leanpitch() {
               <div>
                 To enhance leanpitch’s value proposition and cater to the needs
                 of dedicated learners, we introduced the Prime Membership
-                program. This overview explores the Prime Membership's
+                program. This overview explores the Prime Membership&apos;s
                 objectives, implementation, benefits, market reception, and
-                impact on Leanpitch's overall growth and customer satisfaction.
+                impact on Leanpitch&apos;s overall growth and customer satisfaction.
               </div>
             </div>
 
@@ -496,7 +496,7 @@ export default function Leanpitch() {
               <div>
                 Leanpitch website redesign addressed all initial challenges,
                 creating a cohesive and engaging digital experience that
-                effectively communicated the brand's value and fostered a
+                effectively communicated the brand&apos;s value and fostered a
                 strong, active community.
                 <br />
                 <br />

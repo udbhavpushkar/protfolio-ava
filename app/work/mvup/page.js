@@ -391,7 +391,7 @@ export default function Mvup() {
               }}
               className="rounded-3xl text-sm mt-4 font-semibold bg-[#0D1A71] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
             >
-              Vist Mvup <span className="ml-2">→</span>
+              Visit Mvup <span className="ml-2">→</span>
             </div>
           </div>
         </div>

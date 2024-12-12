@@ -12,7 +12,7 @@ const recommendations = [
     name: "Aditi Shinde",
     title: "Founder, Hybrid Inks Studio",
     text: "I had the pleasure of mentoring Avantika Nayak during her 3-month internship at Hybrid Inks Studio, where she consistently impressed with her ability to craft engaging and well-researched content. Her attention to detail, creativity, and adaptability to our brand's tone were exceptional, and she quickly understood what resonated with our audience. Avantika not only met deadlines but also proactively suggested fresh ideas, showcasing a strong work ethic and initiative. I'm confident she will excel in her future endeavors and highly recommend her to any organization looking for a talented content writer.",
-    profilePicture: "/images/recom1.png", 
+    profilePicture: "/images/recom1.png",
   },
   {
     name: "Pravat Ranjan",
@@ -67,8 +67,8 @@ const Recommendations = () => {
           }}
         >
           {recommendations.map((rec, index) => (
-            <SwiperSlide key={index}>
-              <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-auto mx-auto">
+            <SwiperSlide key={index} className="pb-8" style={{ height: "396px" }}>
+              <div className="bg-white shadow-xl rounded-lg p-6 flex flex-col mx-auto h-[100%]">
                 {/* Header (Avatar, Name, Title) */}
                 <div className="flex items-center mb-4">
                   {/* Avatar */}

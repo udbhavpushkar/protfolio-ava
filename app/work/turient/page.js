@@ -471,7 +471,7 @@ export default function Turient() {
                 <br />I meticulously crafted each word to ensure maximum clarity
                 and engagement. From user navigation to course descriptions,
                 every element was designed with careful consideration of the
-                audience's needs. My{" "}
+                audience&apos;s needs. My{" "}
                 <span className="bg-[#ffd7e5]">
                   strategic approach ensured that the content was not only
                   informative but also intuitive, making the user experience
@@ -498,14 +498,14 @@ export default function Turient() {
                 <br />
                 I crafted user-friendly texts to ease and foster real-time
                 collaboration among educators focusing on creating engaging and
-                meaningful discussions. 
+                meaningful discussions.
                 <br />
                 <br />
                 <span className="bg-[#ffd7e5]">
                   For structured communication, I decided to include separate
-                  panels for different aspects of the discussion, such as "What
-                  went well?", "What did not go well?", and "What can be
-                  improved?". This structured approach helps educators to
+                  panels for different aspects of the discussion, such as &quot;What
+                  went well?&quot;, &quot;What did not go well?&quot;, and &quot;What can be
+                  improved?&quot;. This structured approach helps educators to
                   organize their thoughts and focus on specific areas of
                   discussion.{" "}
                 </span>
@@ -533,14 +533,14 @@ export default function Turient() {
                   Live Breakout Sessions and Group Activities Page:
                 </span>
                 <br />
-                Turient's live breakout sessions and group activities are
+                Turient&apos;s live breakout sessions and group activities are
                 integral to creating an interactive and collaborative virtual
                 classroom environment.
                 <span className="bg-[#ffd7e5]">
                   The main objective was to develop a content design with clear
                   sections such as overall progress, activity-wise progress, and
                   shared items, which helped the students track their progress
-                  seamlessly. 
+                  seamlessly.
                 </span>
               </div>
               <div className="rounded-xl shadow-xl mt-8 bg-[#A1AFC5] w-full ">
@@ -558,14 +558,14 @@ export default function Turient() {
                 </span>
                 <br />
                 This feature in Turient is designed to provide a comprehensive
-                and dynamic view of each student's academic journey, engagement
-                levels, and overall performance. 
+                and dynamic view of each student&apos;s academic journey, engagement
+                levels, and overall performance.
                 <br />
                 <br />
                 <span className="bg-[#ffd7e5]">
-                  I incorporated unique elements like "Likes and Interests,"
-                  "Certifications and Badges," and detailed scores based on
-                  "Engagement," "Knowledge," and "Learning" to provide a
+                  I incorporated unique elements like &quot;Likes and Interests,&quot;
+                  &quot;Certifications and Badges,&quot; and detailed scores based on
+                  &quot;Engagement,&quot; &quot;Knowledge,&quot; and &quot;Learning&quot; to provide a
                   comprehensive view of each student.
                 </span>
                 My goal was{" "}
@@ -592,14 +592,14 @@ export default function Turient() {
                 <br />
                 By leveraging game-like elements such as leader boards, badges,
                 progress tracking, and rewards, Turient fosters a culture of
-                continuous learning, achievement, and personal growth. 
+                continuous learning, achievement, and personal growth.
                 <br />
                 <br />
                 <span className="bg-[#ffd7e5]">
-                  I proposed the "Give a Badge" feature on the Gamification and
+                  I proposed the &quot;Give a Badge&quot; feature on the Gamification and
                   Student Engagement page, allowing students to recognize and
-                  reward their peers with badges like "Team Player," "Curious
-                  Mind," "Active Learner," and "Knowledge Knight."
+                  reward their peers with badges like &quot;Team Player,&quot; &quot;Curious
+                  Mind,&quot; &quot;Active Learner,&quot; and &quot;Knowledge Knight.&quot;
                 </span>
                 This feature fosters a culture of healthy competition and
                 continuous learning, encouraging students to earn more badges
@@ -630,20 +630,20 @@ export default function Turient() {
               </div>
             </div>
             <div className="text-3xl font-semibold mt-16">
-              Results & Refinements 
+              Results & Refinements
             </div>
             <div className="my-5 text-2xl">
               <div>
                 The design and development phase of Turient was a dynamic
                 journey marked by continuous iteration and refinement. By
                 leveraging feedback from users and analysing data insights, we
-                kept on enhancing the platform's functionality, usability, and
-                overall user experience. 
+                kept on enhancing the platform&apos;s functionality, usability, and
+                overall user experience.
                 <br />
                 <br />
                 Following the launch of Turient, we gathered and analysed data
                 to understand engagement and overall platform effectiveness.
-                These insights validate the platform's design and feature set
+                These insights validate the platform&apos;s design and feature set
                 while also providing a foundation for ongoing enhancements to
                 meet the evolving needs of educators and students.{" "}
               </div>

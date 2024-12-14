@@ -2,7 +2,6 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import FooterBanner from "@/components/Footer/FooterBanner";
 import { CONTENT_STRATEGIST_1, item1 } from "./constants";
 import Link from "next/link";
 import ContentDesign from "@/components/Home/ContentDesign";

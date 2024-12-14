@@ -74,9 +74,7 @@ export default function Leanpitch() {
                 An innovative ed-tech platform designed to cater to the needs of
                 agile and scrum enthusiasts, trainees seeking certification, and
                 professionals looking to enhance their skills in product
-                management.
-                <br />
-                Leanpitch stands out in Indian and international markets with
+                management. Leanpitch stands out in Indian and international markets with
                 hands-on, experiential workshops and a community of over 30,000
                 agile and scrum enthusiasts.
               </div>
@@ -93,11 +91,10 @@ export default function Leanpitch() {
               <div className="text-2xl">
                 Leanpitch required a comprehensive redesign of their website
                 content and brand communication to better reflect their
-                expertise in agile and product management training.
-                <br />
-                The existing content was fragmented and lacked a cohesive
-                narrative that could effectively convey the brand’s value
-                proposition. The challenge was{" "}
+                expertise in agile and product management training. The existing
+                content was fragmented and lacked a cohesive narrative that
+                could effectively convey the brand’s value proposition. The
+                challenge was{" "}
                 <span className="bg-[#ffd7e5]">
                   {" "}
                   to create a streamlined, engaging, and user-centric content

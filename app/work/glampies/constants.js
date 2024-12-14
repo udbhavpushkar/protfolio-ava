@@ -81,10 +81,7 @@ export const AUDIENCE_CARDS = [
         title: "Income",
         text: "High disposable income, typically falling within the upper-middle to high-income brackets",
       },
-      {
-        title: "Education",
-        text: "Often well-educated with professional or executive-level careers.",
-      },
+    
     ],
     color: "c2efe0",
   },
@@ -183,7 +180,18 @@ export const CONTENT_IDENTITY_LIST = [
   },
   {
     title: "Relaxed yet Sophisticated:",
-    text: "While we offered a luxury experience, we aimed to balance sophistication with a laid-back feel. We aimed to be approachable, never stuffy or overly formal.",
+    text: (
+      <>
+        While we offered a luxury experience, we aimed to{" "}
+        <span className="bg-[#ffd7e5]">
+          balance sophistication with a laid-back feel.
+        </span>{" "}
+        We aimed to{" "}
+        <span className="bg-[#ffd7e5]">
+          be approachable, never stuffy or overly formal.
+        </span>
+      </>
+    ),
   },
   {
     title: "Inspirational and Uplifting:",
@@ -197,7 +205,13 @@ export const LANGUAGE_LIST = [
   },
   {
     title: "Simple and Clear:",
-    text: "We avoided jargon and overly complex terms. Our goal was to communicate luxury in a way that is accessible and relatable.",
+    text: (<>
+      We avoided jargon and overly complex terms.{" "}
+      <span className="bg-[#ffd7e5]">
+      Our goal was to communicate luxury in a way that is accessible and relatable.
+      </span>{" "}
+    
+    </>),
   },
   {
     title: "Personal and Engaging:",
@@ -207,15 +221,32 @@ export const LANGUAGE_LIST = [
 export const MESSAGING_LIST = [
   {
     title: "Tagline Integration:",
-    text: "Taglines like 'Relax, Rejoice and Rejuvenate' were woven into our narratives, reinforcing the promise of our brand. Each word inspired feelings of tranquillity, joy, and revitalisation.",
+    text: (
+      <>
+        Taglines like{" "}
+        <span className="bg-[#ffd7e5]">"Relax, Rejoice and Rejuvenate"</span> were woven into our narratives, reinforcing the promise of our brand. Each word inspired feelings of tranquillity, joy, and revitalisation.
+      </>
+    ),
   },
   {
     title: "Storytelling:",
-    text: "We shared stories of transformation where guests have found peace and renewed energy after their stay at Glampies. We highlighted the serene environment, the luxury pods, and the personalised services.",
+    text: (
+      <>
+        We shared stories of transformation where guests have found peace and renewed energy after their stay at Glampies. We highlighted the serene environment, the luxury pods, and the personalised services.
+      </>
+    ),
   },
   {
     title: "Contrast and Harmony:",
-    text: "With lines such as 'Luxury Meets Simplicity' we emphasized how Glampies merged the simplicity of nature with upscale amenities. Words like 'Rustic Elegance', 'Nature-Infused Luxury,' and 'Sophisticated Comfort' were used to convey this blend.",
+    text: (
+      <>
+        With lines such as{" "}
+        <span className="bg-[#ffd7e5]">'Luxury Meets Simplicity'</span> we emphasized how Glampies merged the simplicity of nature with upscale amenities. Words like{" "}
+        <span className="bg-[#ffd7e5]">"Rustic Elegance,"</span>{" "}
+        <span className="bg-[#ffd7e5]">"Nature-Infused Luxury,"</span> and{" "}
+        <span className="bg-[#ffd7e5]">"Sophisticated Comfort"</span> were used to convey this blend.
+      </>
+    ),
   },
 ];
 export const OUTCOMES_LIST = [

@@ -3,11 +3,11 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
-import ContentDesign from "@/components/Home/ContentDesign";
 import { Glampies, Leanpitch, Mvup, Turient } from "@/components/Home/Projects";
 import VideoPlayer from "@/components/VideoPlayer";
+import ContentDesignWithImage from "@/components/ContentDesignWithImage";
 
-export default function Work() {
+export default function ContentDesign() {
     return <Layout>
         <div>
             <div className="bg-white w-full">
@@ -15,7 +15,7 @@ export default function Work() {
                     <div className="text-4xl font-semibold">
                         Content Design Challenge
                     </div>
-                    <div className="bg-[#FDD49D] w-max px-3 py-2 mt-4" style={{ borderRadius: "0 20px 20px 0" }}>Created Content + Designed using Figma</div>
+                    <div className="bg-[#FDD49D] w-max px-5 py-7 mt-4" style={{ borderRadius: "0 20px 20px 0" }}>Created Content + Designed using Figma</div>
                     <div className="my-5">
                         <div className="text-3xl font-semibold">Overview</div>
                         <div className="text-2xl">
@@ -31,6 +31,9 @@ export default function Work() {
                             <br />
                         </div>
                     </div>
+                    <ContentDesignWithImage image="/images/cd1.png">
+                        <div>text</div>
+                    </ContentDesignWithImage>
                 </div>
             </div>
             <div className="w-full h-3"></div>

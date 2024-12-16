@@ -108,7 +108,7 @@ export default function ContentDesign() {
                   <br />
                   <br />
                   Challenge: write a message that informs the user that they
-                  cannot access the app right now. You cannot specify "why" the
+                  cannot access the app right now. You cannot specify “why” the
                   app doesn&apos;t work, you also want them to continue using the
                   app.
                   <br />
@@ -591,7 +591,7 @@ export default function ContentDesign() {
             </div>
             <div className="mt-4 mb-14 w-full">
               <Image
-            
+
                 src="/images/svgs/cd-collage.svg"
                 alt="cd1a"
                 height={330}

@@ -177,8 +177,8 @@ export default function Glampies() {
             width={1200}
           />
           <div className="italic text-l text-center">
-            1st draft of the user journey mapping based on the initial user
-            research
+            1st Draft Of The User Journey Mapping Based On The Initial User
+            Research
           </div>
         </div>
         <div className="bg-white w-full">
@@ -257,7 +257,7 @@ export default function Glampies() {
                 {CONTENT_IDENTITY_LIST.map((item, index) => (
                   <div key={index} className="my-5">
                     <div className="text-3xl font-semibold italic">
-                      {item.title} :
+                      {item.title} 
                     </div>
                     <div className="text-2xl">{item.text}</div>
                   </div>

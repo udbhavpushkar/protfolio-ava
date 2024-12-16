@@ -95,13 +95,7 @@ export default function Mvup() {
               </li>
             </ul>
           </div>
-          <div className="my-5">
-            <div className="text-2xl">
-              To understand the needs and preferences of prospective students
-              and ensure the content met our target audience&apos;s requirements, I
-              conducted various user research methods, including:
-            </div>
-          </div>
+        
         </div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
@@ -228,14 +222,12 @@ export default function Mvup() {
             <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] rounded">
               <Image
                 className="mx-auto rounded-lg"
-                src="/images/mvp3.png"
+                src="/images/frame-99.png"
                 alt="mvp3"
                 height={733}
                 width={1200}
               />
-              <div className="italic text-l text-center">
-                Internship Highlight section
-              </div>
+           
             </div>
 
             {/* <Image
@@ -260,12 +252,12 @@ export default function Mvup() {
               <div className="flex flex-col justify-center mt-5 items-center space-y-6 shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
                 <Image
                   className="mx-auto rounded-lg"
-                  src="/images/mvp4.png"
+                  src="/images/frame-100.png"
                   alt="mvp4"
                   height={625}
                   width={1200}
                 />
-                <div className="italic text-l text-center">Dynamic strip</div>
+               
               </div>
             </div>
             {/* <div>

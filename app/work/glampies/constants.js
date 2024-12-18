@@ -81,7 +81,7 @@ export const AUDIENCE_CARDS = [
         title: "Income",
         text: "High disposable income, typically falling within the upper-middle to high-income brackets",
       },
-    
+
     ],
     color: "c2efe0",
   },
@@ -208,9 +208,9 @@ export const LANGUAGE_LIST = [
     text: (<>
       We avoided jargon and overly complex terms.{" "}
       <span className="bg-[#ffd7e5]">
-      Our goal was to communicate luxury in a way that is accessible and relatable.
+        Our goal was to communicate luxury in a way that is accessible and relatable.
       </span>{" "}
-    
+
     </>),
   },
   {
@@ -224,7 +224,7 @@ export const MESSAGING_LIST = [
     text: (
       <>
         Taglines like{" "}
-        <span className="bg-[#ffd7e5]">"Relax, Rejoice and Rejuvenate"</span> were woven into our narratives, reinforcing the promise of our brand. Each word inspired feelings of tranquillity, joy, and revitalisation.
+        <span className="bg-[#ffd7e5]">&apos;Relax, Rejoice and Rejuvenate&apos;</span> were woven into our narratives, reinforcing the promise of our brand. Each word inspired feelings of tranquillity, joy, and revitalisation.
       </>
     ),
   },
@@ -241,10 +241,10 @@ export const MESSAGING_LIST = [
     text: (
       <>
         With lines such as{" "}
-        <span className="bg-[#ffd7e5]">'Luxury Meets Simplicity'</span> we emphasized how Glampies merged the simplicity of nature with upscale amenities. Words like{" "}
-        <span className="bg-[#ffd7e5]">"Rustic Elegance,"</span>{" "}
-        <span className="bg-[#ffd7e5]">"Nature-Infused Luxury,"</span> and{" "}
-        <span className="bg-[#ffd7e5]">"Sophisticated Comfort"</span> were used to convey this blend.
+        <span className="bg-[#ffd7e5]">&apos;Luxury Meets Simplicity&apos;</span> we emphasized how Glampies merged the simplicity of nature with upscale amenities. Words like{" "}
+        <span className="bg-[#ffd7e5]">&apos;Rustic Elegance,</span>{" "}
+        <span className="bg-[#ffd7e5]">&apos;Nature-Infused Luxury,</span> and{" "}
+        <span className="bg-[#ffd7e5]">&apos;Sophisticated Comfort</span> were used to convey this blend.
       </>
     ),
   },

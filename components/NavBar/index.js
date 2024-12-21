@@ -15,7 +15,7 @@ const Navbar = () => {
 
     return <div className='flex py-4 px-16 justify-between items-center max-w-[1325px] mx-auto'>
         <div onClick={() => { router.push("/") }} className="flex items-center cursor-pointer">
-            <div className="text-2xl font-bold">Avantika</div>
+            <div className="text-2xl font-bold">Avantika Nayak</div>
             <div>
                 <Image alt="feather" src="/images/svgs/feather.svg" width={40} height={80} />
             </div>

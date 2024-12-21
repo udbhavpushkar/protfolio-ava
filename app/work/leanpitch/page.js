@@ -28,43 +28,51 @@ export default function Leanpitch() {
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
             <div className="text-4xl font-semibold">Leanpitch</div>
-            <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl font-semibold mt-8">
-              My Role: <br />
+            <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl mt-8">
+              <span className="font-semibold">My Role:</span> <br />
               As the Content Designer for Leanpitch, my role involved: <br />
               <ul className="list-disc ml-6">
                 <li>
-                  Content Strategy: Developed a comprehensive content strategy
-                  that aligned with Leanpitch’s brand identity and business
-                  goals.
+                  <span className="font-semibold">Content Strategy:</span>{" "}
+                  Developed a comprehensive content strategy that aligned with
+                  Leanpitch&apos;s brand identity and business goals.
                 </li>
                 <li>
-                  Systems Thinking: Applied systems thinking to ensure
-                  consistency across all touchpoints. This involved:
+                  <span className="font-semibold">Systems Thinking:</span>{" "}
+                  Applied systems thinking to ensure consistency across all
+                  touchpoints. This involved:
                   <ul className="list-disc ml-12">
                     <li>
-                      Audits: Conducted thorough audits of existing content to
-                      identify gaps and areas for improvement.
+                      <span className="font-semibold">Audits:</span> Conducted
+                      thorough audits of existing content to identify gaps and
+                      areas for improvement.
                     </li>
                     <li>
-                      Information Architecture: Along with my team I redesigned
-                      the information architecture to create a logical and
-                      user-friendly navigation structure.
+                      <span className="font-semibold">
+                        Information Architecture:
+                      </span>{" "}
+                      Along with my team, I redesigned the information
+                      architecture to create a logical and user-friendly
+                      navigation structure.
                     </li>
                   </ul>
                 </li>
                 <li>
-                  Content Creation: Wrote, edited, and optimized all website
-                  content, including course descriptions, blogs, and newsletters
+                  <span className="font-semibold">Content Creation:</span>{" "}
+                  Wrote, edited, and optimized all website content, including
+                  course descriptions, blogs, and newsletters.
                 </li>
                 <li>
-                  Collaboration: Worked closely with UX designers, developers,
-                  and marketing teams to ensure a cohesive integration of
-                  content, design, and functionality.
+                  <span className="font-semibold">Collaboration:</span> Worked
+                  closely with UX designers, developers, and marketing teams to
+                  ensure a cohesive integration of content, design, and
+                  functionality.
                 </li>
                 <li>
-                  Project Management: Led the content redesign process, set
-                  project timelines, and coordinated efforts across different
-                  teams to ensure timely completion and high-quality output.
+                  <span className="font-semibold">Project Management:</span> Led
+                  the content redesign process, set project timelines, and
+                  coordinated efforts across different teams to ensure timely
+                  completion and high-quality output.
                 </li>
               </ul>
             </div>
@@ -74,15 +82,22 @@ export default function Leanpitch() {
                 An innovative ed-tech platform designed to cater to the needs of
                 agile and scrum enthusiasts, trainees seeking certification, and
                 professionals looking to enhance their skills in product
-                management. Leanpitch stands out in Indian and international markets with
-                hands-on, experiential workshops and a community of over 30,000
-                agile and scrum enthusiasts.
+                management. Leanpitch stands out in Indian and international
+                markets with hands-on, experiential workshops and a community of
+                over 30,000 agile and scrum enthusiasts.
               </div>
             </div>
           </div>
         </div>
         <div className="max-w-[1325px] mx-auto py-10">
-          <Vimeo className="w-full" width="1325" video="1012542472" />
+          <Vimeo
+            className="w-full"
+            width="1325"
+            video="1012542472"
+            autoplay
+            loop
+            muted
+          />
         </div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
@@ -173,9 +188,13 @@ export default function Leanpitch() {
                 ))}
               </div>
             </div>
-            <div className="text-3xl font-semibold mt-16 mb-12">
-              User Personas
+            <div className="text-3xl font-semibold mt-16 ">User Personas</div>
+
+            <div className="text-2xl mt-4">
+              After analysing all the data points from our user research, I
+              created user personas to guide us in the content redesign process.
             </div>
+
             <div className="my-5">
               <Image
                 className="mx-auto rounded-lg shadow-xl"
@@ -298,7 +317,7 @@ export default function Leanpitch() {
                 This includes:
                 <ul className="list-disc ml-8 text-[#626262] italic">
                   {IMPLEMENTATION_LIST.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    <li key={index}>{item.text}</li>
                   ))}
                 </ul>
               </div>
@@ -324,14 +343,8 @@ export default function Leanpitch() {
               />
             </div>
             <div className="text-3xl font-semibold mt-16">Final Design:</div>
-            <div className="my-5 text-2xl">
-              <div>
-                By adopting a learner-centric approach and leveraging various
-                training modes, we created tailored learning experiences that
-                cater to the diverse needs and preferences of learners.
-              </div>
-            </div>
-            <div className="my-5 bg-[#F0F6FB] rounded-xl shadow-pink">
+
+            <div className="my-8 bg-[#F0F6FB] rounded-xl shadow-pink">
               <Image
                 className="mx-auto  "
                 src="/images/lp8.png"
@@ -413,7 +426,8 @@ export default function Leanpitch() {
                 of dedicated learners, we introduced the Prime Membership
                 program. This overview explores the Prime Membership&apos;s
                 objectives, implementation, benefits, market reception, and
-                impact on Leanpitch&apos;s overall growth and customer satisfaction.
+                impact on Leanpitch&apos;s overall growth and customer
+                satisfaction.
               </div>
             </div>
 

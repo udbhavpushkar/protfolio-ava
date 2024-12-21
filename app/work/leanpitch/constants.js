@@ -61,11 +61,45 @@ export const CHALLENGES_LIST = [
 ];
 
 export const IMPLEMENTATION_LIST = [
-  "Curating diverse learning materials, including interactive e-learning modules, multimedia content, and hands-on activities, to cater to different learning preferences.",
-  "Incorporating gamification elements such as badges, leader-boards, and challenges to boost engagement and motivation.",
-  "Empowered learner autonomy and self-directed learning, allowing individuals to take ownership of their educational journey.",
-  "Implementing regular feedback loops and assessments to track progress and tailor the learning experience.",
+  {
+    text: (
+      <>
+        Curating{" "}
+        <span className="bg-[#ffd7e5]">diverse learning materials,</span>
+        including interactive e-learning modules, multimedia content, and
+        hands-on activities, to cater to different learning preferences.
+      </>
+    ),
+  },
+  {
+    text: (
+      <>
+        Incorporating{" "}
+        <span className="bg-[#ffd7e5]">gamification elements</span> such as
+        badges, leaderboards, and challenges to boost engagement and motivation.
+      </>
+    ),
+  },
+  {
+    text: (
+      <>
+        Empowered learner autonomy and{" "}
+        <span className="bg-[#ffd7e5]">self-directed learning,</span> allowing
+        individuals to take ownership of their educational journey.
+      </>
+    ),
+  },
+  {
+    text: (
+      <>
+        Implementing regular{" "}
+        <span className="bg-[#ffd7e5]">feedback loops</span> and assessments to
+        track progress and tailor the learning experience.
+      </>
+    ),
+  },
 ];
+
 export const IMPLEMENTATION_LIST_2 = [
   "Fragmented Communities",
   "Moderation Challenges",
@@ -124,7 +158,7 @@ export const MEMBERSHIP_2 = [
   },
   {
     title: "Feedback Loop:",
-    text: "   Established a feedback mechanism to continually improve the membership offerings based on user input.ng.",
+    text: "   Established a feedback mechanism to continually improve the membership offerings based on user input.",
   },
 ];
 
@@ -152,7 +186,3 @@ export const LESSONS_LEARNED = [
     text: "  Designed a flexible content framework that can easily accommodate future additions and changes without disrupting the overall structure and user experience",
   },
 ];
-
-
-
-

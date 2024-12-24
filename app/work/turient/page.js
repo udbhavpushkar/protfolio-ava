@@ -15,8 +15,8 @@ export default function Turient() {
               Turient: All-in-One Platform For All Your Teaching Needs
             </div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl font-medium mt-8">
-              My Role : Content Designer | Ux Writer | User Research| Product
-              Flow| Navigational Nomenclature| Terminology|Taxonomy| Cross
+              My Role : Content Designer | Ux Writer | User Research | Product
+              Flow | Navigational Nomenclature | Terminology | Taxonomy | Cross
               Functional Collaboration | Iteration & Enhancements
             </div>
             <div className="my-5">
@@ -41,7 +41,14 @@ export default function Turient() {
           </div>
         </div>
         <div className="max-w-[1325px] mx-auto py-10">
-          <Vimeo className="w-full" width="1325" video="1012545428" />
+          <Vimeo
+            className="w-full"
+            width="1325"
+            video="1012545428"
+            autoplay
+            loop
+            muted
+          />
         </div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
@@ -55,7 +62,7 @@ export default function Turient() {
                 classroom features like
                 <br />
                 <br />
-                <ul className="list-disc text-[#626262] italic">
+                <ul className="list-disc text-[#626262] italic ml-8">
                   {LIST_1.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
@@ -72,14 +79,6 @@ export default function Turient() {
             height={575}
             width={1200}
           />
-          <div
-            onClick={() => {
-              window.location.assign("https://turient.io/");
-            }}
-            className="rounded-3xl text-sm mt-4 font-semibold bg-[#0027FB] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
-          >
-            See Full Project
-          </div>
         </div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
@@ -89,7 +88,7 @@ export default function Turient() {
                 Replicating Real-World Classroom Experience in Virtual World:
                 <br />
                 <br />
-                <ul className="list-disc text-[#626262] italic">
+                <ul className="list-disc text-[#626262] italic ml-8">
                   {LIST_2.map((item, index) => (
                     <li key={index}>{item}</li>
                   ))}
@@ -156,12 +155,12 @@ export default function Turient() {
                 height={575}
                 width={1200}
               />
-              <div className="italic text-xl text-center">
+              <div className="italic text-xl text-center mt-2 ">
                 Design Process Overview from scratch to MVP
               </div>
             </div>
           </div>
-          <div className="max-w-[1200px] mx-auto font-crimson py-14">
+          <div className="max-w-[1200px] mx-auto  font-crimson py-5">
             <div>
               <div className="text-3xl font-semibold mb-5">
                 Research and Discovery:
@@ -234,9 +233,9 @@ export default function Turient() {
             <div className="text-3xl font-semibold mt-16">Target Audience</div>
             <div className="my-5 text-2xl">
               <div className="my-6">Our target audience encompasses:</div>
-              <ul className="list-disc text-[#626262] italic">
+              <ul className="list-disc text-[#626262] italic ml-8">
                 {LIST_3.map((item, index) => (
-                  <li key={index}>{item}</li>
+                  <li key={index}>{item.text}</li>
                 ))}
               </ul>
               <div className="rounded-lg shadow-xl w-full mt-10">
@@ -256,8 +255,12 @@ export default function Turient() {
               <div className="my-6">
                 We approached the user research process systematically to gather
                 actionable insights into the needs, preferences, and pain points
-                of our target audience. We reached out to around 500+ seasoned
-                educators who have been teaching for more than 10+ years.
+                of our target audience. We reached out to around{" "}
+                <span className="bg-[#ffd7e5]">
+                  500+ seasoned educators who have been teaching for more than
+                  10+ years.
+                </span>{" "}
+                {""}
                 Conducted interviews through Zoom calls, and met a few.
                 <br />
                 <br />
@@ -315,25 +318,37 @@ export default function Turient() {
                 functionalities:
               </div>
               <div>
-                This phase involved generating a wide array of innovative ideas
-                and refining them into viable concepts that align with our
-                mission. During this phase, we engaged in brainstorming sessions
-                and gathered input from key stakeholders, including educators,
-                students, and technical experts.
+                This phase involved generating a{" "}
+                <span className="bg-[#ffd7e5]">
+                  wide array of innovative ideas and refining them into viable
+                  concepts
+                </span>{" "}
+                that align with our mission. During this phase, we engaged in{" "}
+                <span className="bg-[#ffd7e5]">
+                  brainstorming sessions and gathered input from key
+                  stakeholders, including educators, students, and technical
+                  experts.
+                </span>
                 <br />
                 <br />
-                By leveraging insights from our market and user research, we
-                prioritized ideas based on feasibility, impact, and alignment
-                with user needs. The goal was to develop well-defined,
-                user-centric concepts that address identified challenges, such
-                as enhancing student engagement, providing robust teacher
-                support, and ensuring data privacy and security.
+                By leveraging insights from our market and user research, we{" "}
+                <span className="bg-[#ffd7e5]">
+                  prioritized ideas based on feasibility, impact, and alignment
+                  with user needs.
+                </span>{" "}
+                The goal was to develop well-defined, user-centric concepts that
+                address identified challenges, such as enhancing student
+                engagement, providing robust teacher support, and ensuring data
+                privacy and security.
                 <br />
                 <br />
-                This collaborative and iterative process ensured that our
-                concepts are not only innovative but also practical, effective
-                and scalable, laying a strong foundation for subsequent design
-                and development efforts.
+                This collaborative and iterative process ensured that{" "}
+                <span className="bg-[#ffd7e5]">
+                  {" "}
+                  our concepts are not only innovative but also practical,
+                  effective and scalable, laying a strong foundation for
+                  subsequent design and development efforts.
+                </span>
               </div>
               <Image
                 className="mx-auto rounded-lg shadow-xl mt-8"
@@ -503,11 +518,11 @@ export default function Turient() {
                 <br />
                 <span className="bg-[#ffd7e5]">
                   For structured communication, I decided to include separate
-                  panels for different aspects of the discussion, such as &quot;What
-                  went well?&quot;, &quot;What did not go well?&quot;, and &quot;What can be
-                  improved?&quot;. This structured approach helps educators to
-                  organize their thoughts and focus on specific areas of
-                  discussion.{" "}
+                  panels for different aspects of the discussion, such as
+                  &quot;What went well?&quot;, &quot;What did not go
+                  well?&quot;, and &quot;What can be improved?&quot;. This
+                  structured approach helps educators to organize their thoughts
+                  and focus on specific areas of discussion.{" "}
                 </span>
               </div>
               <div className="rounded-xl shadow-xl mt-8 bg-[#A1AFC5] w-full ">
@@ -558,14 +573,15 @@ export default function Turient() {
                 </span>
                 <br />
                 This feature in Turient is designed to provide a comprehensive
-                and dynamic view of each student&apos;s academic journey, engagement
-                levels, and overall performance.
+                and dynamic view of each student&apos;s academic journey,
+                engagement levels, and overall performance.
                 <br />
                 <br />
                 <span className="bg-[#ffd7e5]">
-                  I incorporated unique elements like &quot;Likes and Interests,&quot;
-                  &quot;Certifications and Badges,&quot; and detailed scores based on
-                  &quot;Engagement,&quot; &quot;Knowledge,&quot; and &quot;Learning&quot; to provide a
+                  I incorporated unique elements like &quot;Likes and
+                  Interests,&quot; &quot;Certifications and Badges,&quot; and
+                  detailed scores based on &quot;Engagement,&quot;
+                  &quot;Knowledge,&quot; and &quot;Learning&quot; to provide a
                   comprehensive view of each student.
                 </span>
                 My goal was{" "}
@@ -596,10 +612,11 @@ export default function Turient() {
                 <br />
                 <br />
                 <span className="bg-[#ffd7e5]">
-                  I proposed the &quot;Give a Badge&quot; feature on the Gamification and
-                  Student Engagement page, allowing students to recognize and
-                  reward their peers with badges like &quot;Team Player,&quot; &quot;Curious
-                  Mind,&quot; &quot;Active Learner,&quot; and &quot;Knowledge Knight.&quot;
+                  I proposed the &quot;Give a Badge&quot; feature on the
+                  Gamification and Student Engagement page, allowing students to
+                  recognize and reward their peers with badges like &quot;Team
+                  Player,&quot; &quot;Curious Mind,&quot; &quot;Active
+                  Learner,&quot; and &quot;Knowledge Knight.&quot;
                 </span>
                 This feature fosters a culture of healthy competition and
                 continuous learning, encouraging students to earn more badges
@@ -637,15 +654,15 @@ export default function Turient() {
                 The design and development phase of Turient was a dynamic
                 journey marked by continuous iteration and refinement. By
                 leveraging feedback from users and analysing data insights, we
-                kept on enhancing the platform&apos;s functionality, usability, and
-                overall user experience.
+                kept on enhancing the platform&apos;s functionality, usability,
+                and overall user experience.
                 <br />
                 <br />
                 Following the launch of Turient, we gathered and analysed data
                 to understand engagement and overall platform effectiveness.
-                These insights validate the platform&apos;s design and feature set
-                while also providing a foundation for ongoing enhancements to
-                meet the evolving needs of educators and students.{" "}
+                These insights validate the platform&apos;s design and feature
+                set while also providing a foundation for ongoing enhancements
+                to meet the evolving needs of educators and students.{" "}
               </div>
               <div className="rounded-xl shadow-xl mt-10 bg-[#F4F0E7] w-full ">
                 <Image

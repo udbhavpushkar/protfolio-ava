@@ -2,11 +2,13 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import { CONTENT_STRATEGIST_1, item1 } from "./constants";
+import { CONTENT_STRATEGIST_1, CONTENT_STRATEGIST_2, CONTENT_STRATEGIST_3, CONTENT_STRATEGIST_4, CONTENT_STRATEGIST_5, item1 } from "./constants";
 import Link from "next/link";
 import ContentDesign from "@/components/Home/ContentDesign";
 import { Glampies, Leanpitch, Mvup, Turient } from "@/components/Home/Projects";
 import VideoPlayer from "@/components/VideoPlayer";
+import ImageGallery from "@/components/ImageGallery";
+import SquareCarousel from "@/components/SquareCarousal";
 
 export default function Work() {
     return <Layout>
@@ -64,20 +66,33 @@ export default function Work() {
                         content. I often communicate my thoughts through a blend of text and visuals, ensuring clarity and
                         simplicity. Through this approach, I ensure that every piece of content is both impactful and accessible.
                     </div>
-                    <div className="relative flex items-center">
-                        <div id="slider" className="w-full h-full flex items-start overflow-x-scroll scroll gap-4 whitespace-nowrap scroll-smooth scrollbar-hide">
-                            {CONTENT_STRATEGIST_1.map((data, index) => (
-                                <div key={index} className="text-center max-w-[400px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
-                                    <div className="shadow-md rounded-[14px]">
-                                        {/* <Image src={`/images/${data.image}`} alt={data.image} fill /> */}
-                                        <VideoPlayer videoId={data.videoId} imageUrl={`/images/${data.image}`} width={350} height={350} />
-                                    </div>
-                                    <div>{data.text.split('\n').map(text => <React.Fragment key={text}>
-                                        {text}
-                                        <br />
-                                    </React.Fragment>)}</div>
-                                </div>
+                    <div className="mt-3">
+                        <div className="text-3xl font-semibold mb-3">Visual Communication</div>
+                        <ImageGallery list={CONTENT_STRATEGIST_1} />
+                    </div>
+                    <div className="mt-3 grid grid-cols-3 gap-3">
+                        <SquareCarousel images={CONTENT_STRATEGIST_3} />
+                        <SquareCarousel images={CONTENT_STRATEGIST_4} />
+                        <SquareCarousel images={CONTENT_STRATEGIST_3} />
+                    </div>
+                    <div className="mt-3">
+                        <div className="text-3xl font-semibold mb-6">Storytelling (Script Writing | Conceptualisation | Strategy)</div>
+                        <ImageGallery list={CONTENT_STRATEGIST_2} />
+                    </div>
+                    <div className="mt-3">
+                        <div className="text-3xl font-semibold my-6">Linkedin Article & blog</div>
+                        <div className="grid grid-cols-3 gap-8">
+                            {CONTENT_STRATEGIST_5.map((item, index) => (
+                                <Image
+                                    key={index}
+                                    alt={item}
+                                    src={item}
+                                    width={350}
+                                    height={350}
+                                    className="w-100 min-w-full"
+                                />
                             ))}
+
                         </div>
                     </div>
                 </div>

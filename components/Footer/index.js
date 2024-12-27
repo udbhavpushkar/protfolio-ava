@@ -55,29 +55,23 @@ const Footer = (props) => {
             <div className="text-2xl">Work</div>
 
             <div>
-              <Link href="" className="hover:underline">
+              <Link href="/work#design" className="hover:underline">
                 Content Designer
               </Link>
             </div>
             <div>
-              <Link href="" className="hover:underline">
-                Content Design Challenge
-              </Link>
-            </div>
-            <div>
-              <Link href="" className="hover:underline">
+              <Link href="/work#strategist" className="hover:underline">
                 Content Strategist
               </Link>
             </div>
             <div>
-              <Link href="" className="hover:underline">
+              <Link href="/work#creator" className="hover:underline">
                 Content Creator
               </Link>
             </div>
           </div>
           <div className="flex flex-col">
             <div className="text-2xl">Quick Links</div>
-
             <div>
               <Link href="/resume" className="hover:underline">
                 Resume

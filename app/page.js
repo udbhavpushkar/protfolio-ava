@@ -8,17 +8,32 @@ import Wins from "@/components/Home/Wins";
 import TalkToMe from "@/components/Home/TalkToMe";
 import Recommendations from "@/components/Home/Recommendations";
 import FooterBanner from "@/components/Footer/FooterBanner";
+import FadeInSection from "@/components/FadeInSection";
 
 export default function Home() {
   return (
     <Layout>
-      <Banner />
-      <ContentDesign />
-      <MajorProjects />
-      <AboutMe />
-      <Wins />
-      <TalkToMe />
-      <Recommendations />
+      <FadeInSection>
+        <Banner />
+      </FadeInSection>
+      <FadeInSection>
+        <ContentDesign />
+      </FadeInSection>
+      <FadeInSection>
+        <MajorProjects />
+      </FadeInSection>
+      <FadeInSection>
+        <AboutMe />
+      </FadeInSection>
+      <FadeInSection>
+        <Wins />
+      </FadeInSection>
+      <FadeInSection>
+        <TalkToMe />
+      </FadeInSection>
+      <FadeInSection>
+        <Recommendations />
+      </FadeInSection>
       <FooterBanner link="/resume" text="See Resume" />
     </Layout>
   );

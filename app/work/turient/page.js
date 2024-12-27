@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Vimeo from "@u-wave/react-vimeo";
 import { LIST_1, LIST_2, LIST_3 } from "./constants";
+import Button from "@/components/Button";
 
 export default function Turient() {
   return (
@@ -11,7 +12,8 @@ export default function Turient() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
-            <div className="text-4xl font-semibold">
+            <Button text="Back" href="/work" />
+            <div className="text-4xl font-semibold mt-5">
               Turient: All-in-One Platform For All Your Teaching Needs
             </div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl font-medium mt-8">

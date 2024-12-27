@@ -2,21 +2,15 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import Vimeo from "@u-wave/react-vimeo";
 import {
   AUDIENCE_CARDS,
-  CHALLENGES_LIST,
-  COMPETITOR_LIST,
   CONTENT_IDENTITY_LIST,
-  IMPLEMENTATION_LIST,
-  KEY_FINDINGS,
   LANGUAGE_LIST,
-  MARKET_SEGMENT_LIST,
   MESSAGING_LIST,
   OUTCOMES_LIST,
-  TRENDS_LIST,
   USER_RESEARCH_LIST,
 } from "./constants";
+import Button from "@/components/Button";
 
 export default function Glampies() {
   return (
@@ -24,7 +18,8 @@ export default function Glampies() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
-            <div className="text-4xl font-semibold">
+            <Button text="Back" href="/work" />
+            <div className="text-4xl font-semibold mt-5">
               The Glampies : A Glamourous Gateaway!
             </div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl  mt-8">
@@ -257,7 +252,7 @@ export default function Glampies() {
                 {CONTENT_IDENTITY_LIST.map((item, index) => (
                   <div key={index} className="my-5">
                     <div className="text-3xl font-semibold italic">
-                      {item.title} 
+                      {item.title}
                     </div>
                     <div className="text-2xl">{item.text}</div>
                   </div>

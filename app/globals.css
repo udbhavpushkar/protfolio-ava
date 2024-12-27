@@ -3,78 +3,75 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  background: linear-gradient(
-    to right,
-    #fc8ac750, /* A: Color code for A */
-    #b6baf93e, /* B: Color code for B */
-    #ff8b7646, /* C: Color code for C */
-    #fdd39d3e, /* D: Color code for D */
-    #ff809945  /* E: Color code for E */
-  );
-  background-color: white;
+	max-width: 100vw;
+	overflow-x: hidden;
+	background: linear-gradient(
+		to right,
+		#fc8ac750,
+		/* A: Color code for A */ #b6baf93e,
+		/* B: Color code for B */ #ff8b7646,
+		/* C: Color code for C */ #fdd39d3e,
+		/* D: Color code for D */ #ff809945 /* E: Color code for E */
+	);
+	background-color: white;
+	scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Playfair Display', serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	font-family: 'Playfair Display', serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 /* App.css */
 .typewriter-container {
-  display: inline-block;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 2px solid black; /* Blinking cursor effect */
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 2px solid black; /* Blinking cursor effect */
 }
 
 .typewriter-text {
-  display: inline-block;
-  animation: typewriter 4s steps(12) 1s infinite normal both, blink 1s step-end infinite;
+	display: inline-block;
+	animation: typewriter 4s steps(12) 1s infinite normal both, blink 1s step-end infinite;
 }
 
 @keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 @keyframes blink {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: black;
-  }
+	from,
+	to {
+		border-color: transparent;
+	}
+	50% {
+		border-color: black;
+	}
 }
 
-.gardient-1{
-  background: radial-gradient(
-  circle at 200% -50%, 
-  #fdd39d84, 
-  white
-);
+.gardient-1 {
+	background: radial-gradient(circle at 200% -50%, #fdd39d84, white);
 }

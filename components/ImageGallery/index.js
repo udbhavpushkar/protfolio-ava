@@ -17,9 +17,6 @@ const ImageGallery = ({ list }) => {
 
     return (
         <div className="py-4">
-            {/* Scrollable div */}
-
-
             <div className="flex flex-nowrap overflow-x-auto space-x-4 scrollbar-hide">
                 {list.map((item, index) => (
                     <div key={index} className="text-center w-[360px]">

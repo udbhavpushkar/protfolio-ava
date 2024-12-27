@@ -3,19 +3,19 @@ export const item1 = [
         image: 'w11.png',
         title: `Content Designer`,
         text: `Ux Writing | User research | Information Architecture | Systems Thinking | High-Fidelity Mock`,
-        link: '#',
+        link: '#design',
     },
     {
         image: 'w12.png',
         title: `Content Strategist`,
         text: `Concept | Strory Boarding | Visualisation | Branding| Content Writing | Content Aesthetics`,
-        link: '#',
+        link: '#strategist',
     },
     {
         image: 'w13.png',
         title: `Content Creator`,
         text: `Visual Storytelling | Video Editing | Script Writing | User-Generated Content | Influencer Collaboration`,
-        link: '#',
+        link: '#creator',
     },
 ]
 
@@ -83,4 +83,11 @@ export const CONTENT_STRATEGIST_5 = [
     "/images/lb3.png",
     "/images/lb4.png",
     "/images/lb5.png",
+]
+
+export const CONTENT_CREATOR_1 = [
+    "/images/wc11.png",
+    "/images/wc12.png",
+    "/images/wc13.png",
+    "/images/wc14.png",
 ]

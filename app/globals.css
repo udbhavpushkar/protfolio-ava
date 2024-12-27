@@ -23,6 +23,18 @@ body {
 	scroll-behavior: smooth;
 }
 
+.navbar{
+	background: linear-gradient(
+		to right,
+		#fc8ac750,
+		/* A: Color code for A */ #b6baf93e,
+		/* B: Color code for B */ #ff8b7646,
+		/* C: Color code for C */ #fdd39d3e,
+		/* D: Color code for D */ #ff809945 /* E: Color code for E */
+	);
+	background-color: white;
+}
+
 body {
 	font-family: 'Playfair Display', serif;
 	-webkit-font-smoothing: antialiased;

@@ -3,74 +3,91 @@ export const item1 = [
         image: 'w11.png',
         title: `Content Designer`,
         text: `Ux Writing | User research | Information Architecture | Systems Thinking | High-Fidelity Mock`,
-        link: '#',
+        link: '#design',
     },
     {
         image: 'w12.png',
         title: `Content Strategist`,
         text: `Concept | Strory Boarding | Visualisation | Branding| Content Writing | Content Aesthetics`,
-        link: '#',
+        link: '#strategist',
     },
     {
         image: 'w13.png',
         title: `Content Creator`,
         text: `Visual Storytelling | Video Editing | Script Writing | User-Generated Content | Influencer Collaboration`,
-        link: '#',
+        link: '#creator',
     },
 ]
 
 export const CONTENT_STRATEGIST_1 = [
     {
-        image: "avantika1.JPG",
+        image: "/images/wk1.png",
         text: "Mindfulness Workshop Campaign",
-        videoId: "dYEZfFeb2KE",
+        video: "https://youtube.com/embed/dYEZfFeb2KE",
     },
     {
-        image: "avantika1.JPG",
+        image: "/images/wk2.png",
         text: "Reel on Personal Agility",
-        videoId: "C8WLJBxZMJo",
+        video: "https://youtube.com/embed/C8WLJBxZMJo",
     },
     {
-        image: "avantika1.JPG",
+        image: "/images/wk3.png",
         text: "Mindfulness Workshop Campaign ",
-        videoId: "S8TVl_7uToA",
+        video: "https://youtube.com/embed/S8TVl_7uToA",
     },
     {
-        image: "avantika1.JPG",
+        image: "/images/wk4.png",
         text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
+        video: "https://youtube.com/embed/Bl_tFfat7PI?si=Li5em6yeiPkjQehh",
     },
-    {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
-    },
+]
 
+export const CONTENT_STRATEGIST_2 = [
     {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
+        image: "/images/wkst1.png",
+        text: "Mindfulness Workshop Campaign",
+        video: "https://youtube.com/embed/dYEZfFeb2KE",
     },
+    {
+        image: "/images/wkst2.png",
+        text: "Reel on Personal Agility",
+        video: "https://youtube.com/embed/C8WLJBxZMJo",
+    },
+    {
+        image: "/images/wkst3.png",
+        text: "Mindfulness Workshop Campaign ",
+        video: "https://youtube.com/embed/S8TVl_7uToA",
+    },
+]
 
-    {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
-    },
+export const CONTENT_STRATEGIST_3 = [
+    "/images/carousal/1.png",
+    "/images/carousal/2.png",
+    "/images/carousal/3.png",
+    "/images/carousal/4.png",
+    "/images/carousal/5.png",
+    "/images/carousal/6.png",
+    "/images/carousal/7.png",
+]
 
-    {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
-    },
-    {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
-    },
-    {
-        image: "avantika1.JPG",
-        text: "International Skills Day Campaign",
-        videoId: "Bl_tFfat7PI",
-    },
+export const CONTENT_STRATEGIST_4 = [
+    "/images/carousal2/1.png",
+    "/images/carousal2/2.png",
+    "/images/carousal2/3.png",
+    "/images/carousal2/4.png",
+]
+
+export const CONTENT_STRATEGIST_5 = [
+    "/images/lb1.png",
+    "/images/lb2.png",
+    "/images/lb3.png",
+    "/images/lb4.png",
+    "/images/lb5.png",
+]
+
+export const CONTENT_CREATOR_1 = [
+    "/images/wc11.png",
+    "/images/wc12.png",
+    "/images/wc13.png",
+    "/images/wc14.png",
 ]

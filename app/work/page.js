@@ -2,11 +2,14 @@
 import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import { CONTENT_STRATEGIST_1, item1 } from "./constants";
+import { CONTENT_CREATOR_1, CONTENT_STRATEGIST_1, CONTENT_STRATEGIST_2, CONTENT_STRATEGIST_3, CONTENT_STRATEGIST_4, CONTENT_STRATEGIST_5, item1 } from "./constants";
 import Link from "next/link";
 import ContentDesign from "@/components/Home/ContentDesign";
 import { Glampies, Leanpitch, Mvup, Turient } from "@/components/Home/Projects";
 import VideoPlayer from "@/components/VideoPlayer";
+import ImageGallery from "@/components/ImageGallery";
+import SquareCarousel from "@/components/SquareCarousal";
+import FooterBanner from "@/components/Footer/FooterBanner";
 
 export default function Work() {
     return <Layout>
@@ -34,7 +37,7 @@ export default function Work() {
             </div>
             <ContentDesign />
             <div className="w-full h-3"></div>
-            <div className="bg-white w-full">
+            <div className="bg-white w-full" id="design">
                 <div className="max-w-[1325px] mx-auto font-crimson py-14">
                     <div className="text-4xl font-semibold">As a Content Designer</div>
                     <div className="text-2xl my-5">
@@ -56,7 +59,7 @@ export default function Work() {
                     User Persona | Information Architecture | Taxonomy | Navigation Nomenclature
                 </div>
             </div>
-            <div className="bg-white w-full">
+            <div className="bg-white w-full" id="strategist">
                 <div className="max-w-[1325px] mx-auto font-crimson py-14">
                     <div className="text-4xl font-semibold">As a Content Strategist</div>
                     <div className="text-2xl my-5">
@@ -64,26 +67,110 @@ export default function Work() {
                         content. I often communicate my thoughts through a blend of text and visuals, ensuring clarity and
                         simplicity. Through this approach, I ensure that every piece of content is both impactful and accessible.
                     </div>
-                    <div className="relative flex items-center">
-                        <div id="slider" className="w-full h-full flex items-start overflow-x-scroll scroll gap-4 whitespace-nowrap scroll-smooth scrollbar-hide">
-                            {CONTENT_STRATEGIST_1.map((data, index) => (
-                                <div key={index} className="text-center max-w-[400px] inline-block p-2 cursor-pointer hover:scale-105 ease-in-out duration-300">
-                                    <div className="shadow-md rounded-[14px]">
-                                        {/* <Image src={`/images/${data.image}`} alt={data.image} fill /> */}
-                                        <VideoPlayer videoId={data.videoId} imageUrl={`/images/${data.image}`} width={350} height={350} />
-                                    </div>
-                                    <div>{data.text.split('\n').map(text => <React.Fragment key={text}>
-                                        {text}
-                                        <br />
-                                    </React.Fragment>)}</div>
-                                </div>
+                    <div className="my-6">
+                        <div className="text-3xl font-semibold mb-3">Visual Communication</div>
+                        <ImageGallery list={CONTENT_STRATEGIST_1} />
+                    </div>
+                    <div className="my-3 grid grid-cols-3 gap-3">
+                        <SquareCarousel images={CONTENT_STRATEGIST_3} />
+                        <SquareCarousel images={CONTENT_STRATEGIST_4} />
+                        <SquareCarousel images={CONTENT_STRATEGIST_3} />
+                    </div>
+                    <div className="my-3">
+                        <div className="text-3xl font-semibold my-6">Storytelling (Script Writing | Conceptualisation | Strategy)</div>
+                        <ImageGallery list={CONTENT_STRATEGIST_2} />
+                    </div>
+                    <div className="my-3">
+                        <div className="text-3xl font-semibold my-6">Linkedin Article & blog</div>
+                        <div className="grid grid-cols-3 gap-8">
+                            {CONTENT_STRATEGIST_5.map((item, index) => (
+                                <Image
+                                    key={index}
+                                    alt={item}
+                                    src={item}
+                                    width={350}
+                                    height={350}
+                                    className="w-100 min-w-full"
+                                />
                             ))}
+
+                        </div>
+                    </div>
+                    <div className="my-3">
+                        <div className="text-3xl font-semibold my-6">Branding & Marketing</div>
+                        <Image src="/images/solos.png" width={1325} height={766} alt="solos" />
+                        <div className="text-3xl font-semibold my-6">Brand Name, Tag-line & Branding for an Ice Cream Brand</div>
+                    </div>
+                </div>
+            </div>
+            <div className="w-full bg-[#ECEDFF]">
+                <div className="max-w-[1325px] mx-auto font-crimson text-[#545794] text-center py-3 font-semibold">
+                    Concept | Strategy| Story Boarding | Visualisation | Branding| Content Writing | Content Aesthetics
+                </div>
+            </div>
+            <div className="bg-white w-full" id="creator">
+                <div className="max-w-[1325px] mx-auto font-crimson py-14">
+                    <div className="text-4xl font-semibold">Work as a Content Creator</div>
+                    <div className="text-2xl my-5">
+                        As a content creator, I’ve had the privilege of collaborating with major brands such as TRESemmé, Dove,
+                        Lakmé, Nivea, and 30+ other brands for Instagram collaboration, UGC content projects, and sponsored ads
+                        content. These collaborations provided me valuable insights into diverse content strategies and brand goals
+                        of famous brands, enhancing my understanding of how different brands approach content creation and engagement.
+                    </div>
+                    <div className="my-6">
+                        <div className="text-3xl font-semibold mb-3">Meta X Lakmé Event</div>
+                        <div className="text-2xl my-5">
+                            Invited to the Meta X Lakmé event as a content creator. Networked and collaborated with various creators,
+                            sharing insights and building connections.
+                        </div>
+                    </div>
+                    <div className="flex gap-6 justify-between my-6">
+                        <div className="w-3/5 grid grid-cols-2 gap-8">
+                            {CONTENT_CREATOR_1.map((item, index) => (
+                                <Image key={index} src={item} alt={item} width={380} height={380} className="rounded-3xl" />
+                            ))}
+                        </div>
+                        <div className="w-2/5">
+                            <VideoPlayer videoId={'GZivZH6oiY4'} imageUrl="/images/wc15.png" width={450} height={740} />
+                        </div>
+                    </div>
+                    <div className="mt-36 mb-32 flex">
+                        <div className="w-[70%]">
+                            <div className="text-3xl font-semibold mb-3">Urbanic’s “The Real U” Campaign</div>
+                            <div className="text-2xl my-5 pr-20">
+                                Collaborated with Urbanic on “The Real U” campaign, scripting a narrative on how &quot;Art&quot; and
+                                &quot;Fashion&quot; shape my identity, confidence, and self-worth, inspiring others to embrace and express their authentic selves.
+                            </div>
+                        </div>
+                        <div className="w-[30%]">
+                            <VideoPlayer
+                                imageUrl="/images/wc16.png"
+                                width={350}
+                                height={350}
+                                insta="https://www.instagram.com/reel/C3sUHiqtNsG/?igsh=MTkwbTNvMXQ1cG8weA==" />
+                        </div>
+                    </div>
+                    <div className="mb-16 flex">
+                        <div className="w-[30%]">
+                            <VideoPlayer videoId={'Ty-nqFZfBmY'} imageUrl="/images/wc17.png" width={350} height={350} />
+                        </div>
+                        <div className="w-[70%]">
+                            <div className="text-3xl font-semibold mb-3 pl-20">Collaboration with Lakmé for Vitamin C Serum Launch</div>
+                            <div className="text-2xl my-5 pl-20">
+                                Lakmé, a powerhouse in the Indian beauty industry since 1952, is renowned for setting trends and standards.
+                                Collaborating with them for the Vitamin C Serum launch, I crafted an informative script to educate people
+                                on the benefits and drawbacks of Vitamin C.
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            {/* <FooterBanner link="/work" text="See Main Projects" /> */}
+            <div className="w-full bg-[#ECEDFF]">
+                <div className="max-w-[1325px] mx-auto font-crimson text-[#545794] text-center py-3 font-semibold">
+                    Visual Storytelling | Video Editing | Script Writing | User-Generated Content | Influencer Collaboration
+                </div>
+            </div>
+            <FooterBanner link="/resume" text="See Resume" />
         </div>
     </Layout>
 }

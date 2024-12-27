@@ -20,7 +20,7 @@ const Banner = () => {
                 <div className="text-[#A80021] text-[40px]">Content Designer & Strategist</div>
                 <div>based in India. </div>
             </div>
-            <Link href="">
+            <Link href="/resume">
                 <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">See Resume</div>
             </Link>
         </div>

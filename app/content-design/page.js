@@ -612,7 +612,6 @@ export default function ContentDesign() {
               </div>
               <div className="mt-4 mb-14 w-full">
                 <Image
-
                   src="/images/svgs/cd-collage.svg"
                   alt="cd1a"
                   height={330}

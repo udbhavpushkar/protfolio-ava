@@ -5,6 +5,7 @@ import Image from "next/image";
 import FooterBanner from "@/components/Footer/FooterBanner";
 import WinDisplay from "@/components/Wins/WinDisplay";
 import { items } from "./constants";
+import FadeInSection from "@/components/FadeInSection";
 
 export default function Wins() {
   return (
@@ -20,10 +21,14 @@ export default function Wins() {
             />
           </div>
           {items.map((item, index) => (
-            <WinDisplay key={`item_${index}`} data={item} />
+            <FadeInSection key={`item_${index}`}>
+              <WinDisplay data={item} />
+            </FadeInSection>
           ))}
         </div>
-        <FooterBanner link="/work" text="See Main Projects" />
+        <FadeInSection>
+          <FooterBanner link="/work" text="See Main Projects" />
+        </FadeInSection>
       </div>
     </Layout>
   );

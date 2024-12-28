@@ -3,6 +3,8 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import Vimeo from "@u-wave/react-vimeo";
+import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Mvup() {
   return (
@@ -10,7 +12,8 @@ export default function Mvup() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
-            <div className="text-3xl font-semibold">MVUP</div>
+            <Button text="Back" href="/work#design" />
+            <div className="text-3xl font-semibold mt-5">MVUP</div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl font-semibold mt-8">
               My Role: <br />
               <span className="font-normal">
@@ -95,7 +98,7 @@ export default function Mvup() {
               </li>
             </ul>
           </div>
-        
+
         </div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
@@ -227,7 +230,7 @@ export default function Mvup() {
                 height={733}
                 width={1200}
               />
-           
+
             </div>
 
             {/* <Image
@@ -257,7 +260,7 @@ export default function Mvup() {
                   height={625}
                   width={1200}
                 />
-               
+
               </div>
             </div>
             {/* <div>
@@ -387,7 +390,7 @@ export default function Mvup() {
             </div>
           </div>
         </div>
-
+        <ProjectFooterBanner isLast />
         {/* <FooterBanner link="/work" text="See Main Projects" /> */}
       </div>
     </Layout>

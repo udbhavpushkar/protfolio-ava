@@ -20,6 +20,8 @@ import {
   OBJECTIVES,
   TRENDS_LIST,
 } from "./constants";
+import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Leanpitch() {
   return (
@@ -27,7 +29,8 @@ export default function Leanpitch() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
-            <div className="text-4xl font-semibold">Leanpitch</div>
+            <Button text="Back" href="/work#design" />
+            <div className="text-4xl font-semibold mt-5">Leanpitch</div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl mt-8">
               <span className="font-semibold">My Role:</span> <br />
               As the Content Designer for Leanpitch, my role involved: <br />
@@ -570,8 +573,7 @@ export default function Leanpitch() {
             </div>
           </div>
         </div>
-
-        {/* <FooterBanner link="/work" text="See Main Projects" /> */}
+        <ProjectFooterBanner link="/work/glampies" />
       </div>
     </Layout>
   );

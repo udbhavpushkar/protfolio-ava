@@ -92,11 +92,12 @@ export default function Work() {
                                 {CONTENT_STRATEGIST_5.map((item, index) => (
                                     <Image
                                         key={index}
-                                        alt={item}
-                                        src={item}
+                                        alt={item.image}
+                                        src={item.image}
                                         width={350}
                                         height={350}
-                                        className="w-100 min-w-full"
+                                        className="w-100 min-w-full cursor-pointer"
+                                        onClick={() => { window.open(item.link, "_blank") }}
                                     />
                                 ))}
 
@@ -117,9 +118,9 @@ export default function Work() {
                     </div>
                 </div>
             </FadeInSection>
-            <FadeInSection>
-                <div className="bg-white w-full" id="creator">
-                    <div className="max-w-[1325px] mx-auto font-crimson py-14">
+            <div className="bg-white w-full" id="creator">
+                <div className="max-w-[1325px] mx-auto font-crimson py-14">
+                    <FadeInSection>
                         <div className="text-4xl font-semibold">Work as a Content Creator</div>
                         <div className="text-2xl my-5">
                             As a content creator, I’ve had the privilege of collaborating with major brands such as TRESemmé, Dove,
@@ -144,6 +145,8 @@ export default function Work() {
                                 <VideoPlayer videoId={'GZivZH6oiY4'} imageUrl="/images/wc15.png" width={450} height={740} />
                             </div>
                         </div>
+                    </FadeInSection>
+                    <FadeInSection>
                         <div className="mt-36 mb-32 flex">
                             <div className="w-[70%]">
                                 <div className="text-3xl font-semibold mb-3">Urbanic’s “The Real U” Campaign</div>
@@ -173,15 +176,17 @@ export default function Work() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </FadeInSection>
-            <div className="w-full bg-[#ECEDFF]">
-                <div className="max-w-[1325px] mx-auto font-crimson text-[#545794] text-center py-3 font-semibold">
-                    Visual Storytelling | Video Editing | Script Writing | User-Generated Content | Influencer Collaboration
+                    </FadeInSection>
                 </div>
             </div>
-            <FooterBanner link="/resume" text="See Resume" />
+            <FadeInSection>
+                <div className="w-full bg-[#ECEDFF]">
+                    <div className="max-w-[1325px] mx-auto font-crimson text-[#545794] text-center py-3 font-semibold">
+                        Visual Storytelling | Video Editing | Script Writing | User-Generated Content | Influencer Collaboration
+                    </div>
+                </div>
+                <FooterBanner link="/resume" text="See Resume" />
+            </FadeInSection>
         </div>
     </Layout>
 }

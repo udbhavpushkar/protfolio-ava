@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../NavBar";
 import Footer from "../Footer";
+import Head from "next/head";
 
 const Layout = ({ className, children }) => {
     const scrollToTop = () => {
@@ -12,6 +13,20 @@ const Layout = ({ className, children }) => {
         }
     }
     return <div className={className}>
+        <Head>
+            {/* Open Graph Tags */}
+            <meta property="og:title" content="Avantika Nayak" />
+            <meta property="og:description" content="Avantika Nayak's porfolio" />
+            <meta property="og:image" content="https://avantika-nayak.netlify.app/images/meta-image.png" />
+            <meta property="og:url" content="https://avantika-nayak.netlify.app" />
+            <meta property="og:type" content="website" />
+
+            {/* Twitter Card Tags */}
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content="Avantika Nayak" />
+            <meta name="twitter:description" content="Avantika Nayak's porfolio" />
+            <meta name="twitter:image" content="https://avantika-nayak.netlify.app/images/meta-image.png" />
+        </Head>
         <Navbar />
         <div style={{ marginTop: "94.17px" }}>
             {children}

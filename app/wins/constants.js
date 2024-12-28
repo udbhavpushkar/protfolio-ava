@@ -1,9 +1,9 @@
 export const items = [
     {
         mediaItems: [
-            { type: 'image', src: '/images/slider/1.png' },
-            { type: 'image', src: '/images/slider/2.png' },
-            { type: 'image', src: '/images/slider/3.png' },
+            { type: 'image', src: '/images/win/w11.png' },
+            { type: 'image', src: '/images/win/w12.png' },
+            { type: 'image', src: '/images/win/w13.png' },
         ],
         title: `University Gold Medalist: President’s Award`,
         text: `Awarded the University Gold Medal by the University
@@ -14,8 +14,8 @@ export const items = [
     },
     {
         mediaItems: [
-            { type: 'image', src: '/images/slider/4.png' },
-            { type: 'image', src: '/images/slider/5.png' },
+            { type: 'image', src: '/images/win/w21.png' },
+            { type: 'image', src: '/images/win/w22.png' },
         ],
         title: `Achieved CSPO & CSM Certifications`,
         text: `Certified by Scrum Alliance as a CSPO (Certified Scrum Product Owner)
@@ -27,9 +27,9 @@ export const items = [
     },
     {
         mediaItems: [
-            { type: 'image', src: '/images/slider/6.png' },
-            { type: 'image', src: '/images/slider/7.png' },
-            { type: 'image', src: '/images/slider/8.png' },
+            { type: 'image', src: '/images/win/w31.png' },
+            { type: 'image', src: '/images/win/w32.png' },
+            { type: 'image', src: '/images/win/w33.png' },
         ],
         title: `Anchoring Events & Recording Educational E-Learning Content`,
         text: `Successfully anchored various events and recorded educational e-learning
@@ -39,9 +39,9 @@ export const items = [
     },
     {
         mediaItems: [
-            { type: 'image', src: '/images/slider/9.png' },
-            { type: 'image', src: '/images/slider/10.png' },
-            { type: 'image', src: '/images/slider/11.png' },
+            { type: 'image', src: '/images/win/w41.png' },
+            { type: 'image', src: '/images/win/w42.png' },
+            { type: 'image', src: '/images/win/w43.png' },
         ],
         title: `Guest Speaker at DY Patil  College`,
         text: `Invited as a guest speaker at DY Patil Hospitality College to
@@ -51,8 +51,8 @@ export const items = [
     },
     {
         mediaItems: [
-            { type: 'image', src: '/images/slider/12.png' },
-            { type: 'image', src: '/images/slider/13.png' },
+            { type: 'image', src: '/images/win/w51.png' },
+            { type: 'image', src: '/images/win/w52.png' },
         ],
         title: `Best Outgoing Student Award`,
         text: `This prestigious award is given to the most promising senior

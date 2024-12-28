@@ -21,6 +21,7 @@ import {
   TRENDS_LIST,
 } from "./constants";
 import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Leanpitch() {
   return (
@@ -572,8 +573,7 @@ export default function Leanpitch() {
             </div>
           </div>
         </div>
-
-        {/* <FooterBanner link="/work" text="See Main Projects" /> */}
+        <ProjectFooterBanner link="/work/glampies" />
       </div>
     </Layout>
   );

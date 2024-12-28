@@ -11,6 +11,7 @@ import {
   USER_RESEARCH_LIST,
 } from "./constants";
 import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Glampies() {
   return (
@@ -425,8 +426,7 @@ export default function Glampies() {
             </div>
           </div>
         </div>
-
-        {/* <FooterBanner link="/work" text="See Main Projects" /> */}
+        <ProjectFooterBanner link="/work/mvup" />
       </div>
     </Layout>
   );

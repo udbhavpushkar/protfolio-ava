@@ -5,6 +5,7 @@ import Image from "next/image";
 import Vimeo from "@u-wave/react-vimeo";
 import { LIST_1, LIST_2, LIST_3 } from "./constants";
 import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Turient() {
   return (
@@ -686,7 +687,7 @@ export default function Turient() {
             </div>
           </div>
         </div>
-        {/* <FooterBanner link="/work" text="See Main Projects" /> */}
+        <ProjectFooterBanner link="/work/leanpitch" />
       </div>
     </Layout>
   );

@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Vimeo from "@u-wave/react-vimeo";
 import Button from "@/components/Button";
+import ProjectFooterBanner from "@/components/Footer/ProjectFooterBanner";
 
 export default function Mvup() {
   return (
@@ -389,7 +390,7 @@ export default function Mvup() {
             </div>
           </div>
         </div>
-
+        <ProjectFooterBanner isLast />
         {/* <FooterBanner link="/work" text="See Main Projects" /> */}
       </div>
     </Layout>

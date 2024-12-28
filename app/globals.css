@@ -88,7 +88,7 @@ a {
 	background: radial-gradient(circle at 200% -50%, #fdd39d84, white);
 }
 
-.fade-in {
+/* .fade-in {
 	opacity: 0;
 	transform: translateY(20px);
 	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
@@ -97,4 +97,49 @@ a {
   .fade-in.appear {
 	opacity: 1;
 	transform: translateY(0);
+  } */
+
+  .fade-in {
+	opacity: 0;
+	transition: opacity 1s ease-out;
   }
+  
+  .fade-in.appear {
+	opacity: 1;
+  }
+  
+  /* .fade-in {
+	filter: blur(10px);
+	opacity: 0;
+	transition: filter 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  .fade-in.appear {
+	filter: blur(0); 
+	opacity: 1;
+  } */
+
+  /* .fade-in {
+	scale: 0.95;
+	opacity: 0;
+	transition: scale 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  .fade-in.appear {
+	scale: 1;
+	opacity: 1;
+  } */
+  
+  /* .fade-in {
+	filter: blur(10px);
+	scale: 0.95;
+	opacity: 0;
+	transition: filter 0.8s ease-out, scale 0.8s ease-out, opacity 0.8s ease-out;
+  }
+  
+  .fade-in.appear {
+	filter: blur(0);
+	scale: 1;
+	opacity: 1;
+  } */
+  

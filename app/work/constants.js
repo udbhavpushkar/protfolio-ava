@@ -45,18 +45,18 @@ export const CONTENT_STRATEGIST_1 = [
 export const CONTENT_STRATEGIST_2 = [
     {
         image: "/images/wkst1.png",
-        text: "Mindfulness Workshop Campaign",
-        video: "https://youtube.com/embed/dYEZfFeb2KE",
+        text: "Product Demo Video for Turient",
+        video: "https://www.youtube.com/embed/SocOyxiD-8I?si=XhIduozo4NEJB4OQ",
     },
     {
         image: "/images/wkst2.png",
-        text: "Reel on Personal Agility",
-        video: "https://youtube.com/embed/C8WLJBxZMJo",
+        text: "Glampies Promotional Video",
+        video: "https://www.youtube.com/embed/fEpDvEiC8Ng?si=rAEmrViMSJxd5l4t",
     },
     {
         image: "/images/wkst3.png",
-        text: "Mindfulness Workshop Campaign ",
-        video: "https://youtube.com/embed/S8TVl_7uToA",
+        text: "MVUP Marketing reel ",
+        video: "https://www.youtube.com/embed/jFSl-CB-S4E",
     },
 ]
 
@@ -78,11 +78,11 @@ export const CONTENT_STRATEGIST_4 = [
 ]
 
 export const CONTENT_STRATEGIST_5 = [
-    "/images/lb1.png",
-    "/images/lb2.png",
-    "/images/lb3.png",
-    "/images/lb4.png",
-    "/images/lb5.png",
+    { image: "/images/lb1.png", link: "https://www.linkedin.com/posts/leanpitch_this-is-the-reason-why-agile-was-neither-activity-7198933098896515072-FH6f?utm_source=share&utm_medium=member_ios" },
+    { image: "/images/lb2.png", link: "https://www.linkedin.com/posts/leanpitch_steal-tips-that-millionaires-use-to-lead-activity-7209072982248296449-kabn?utm_source=share&utm_medium=member_ios" },
+    { image: "/images/lb3.png", link: "https://www.linkedin.com/posts/leanpitch_are-agile-practices-really-dead-read-our-activity-7184071387211264002-Asjb?utm_source=share&utm_medium=member_ios" },
+    { image: "/images/lb4.png", link: "https://www.linkedin.com/posts/leanpitch_why-a-product-owner-should-focus-on-the-job-activity-7181170331691220994-heV0?utm_source=share&utm_medium=member_ios" },
+    { image: "/images/lb5.png", link: "https://www.linkedin.com/posts/leanpitch_leanpitch-scrummaster-agile-activity-7211666729523978241-skIJ?utm_source=share&utm_medium=member_ios" },
 ]
 
 export const CONTENT_CREATOR_1 = [

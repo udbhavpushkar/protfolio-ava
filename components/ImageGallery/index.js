@@ -35,7 +35,7 @@ const ImageGallery = ({ list }) => {
 
             {/* Modal */}
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70" style={{ zIndex: "9999" }}>
                     <div className="bg-white rounded-lg overflow-hidden w-full max-w-2xl">
                         <div className="flex justify-between items-center p-4 border-b">
                             <h2 className="text-lg font-semibold">Video</h2>

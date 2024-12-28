@@ -9,7 +9,7 @@ const DesignCarousel = () => {
     return <Carousel autoPlay infiniteLoop interval={4000} width={1441} showThumbs={false} showStatus={false} showIndicators={false}>
         {LIST.map((item, index) => {
             const image = `d${item}.png`
-            return <div key={index} className="udbhav">
+            return <div key={index}>
                 <Image src={`/images/cd/${image}`} alt={image} width={1441} height={623} />
             </div>
         })}

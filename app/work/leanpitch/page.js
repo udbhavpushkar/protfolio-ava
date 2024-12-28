@@ -28,7 +28,7 @@ export default function Leanpitch() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
-            <Button text="Back" href="/work" />
+            <Button text="Back" href="/work#design" />
             <div className="text-4xl font-semibold mt-5">Leanpitch</div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl mt-8">
               <span className="font-semibold">My Role:</span> <br />

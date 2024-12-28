@@ -12,7 +12,7 @@ export default function Turient() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1325px] mx-auto font-crimson py-14">
-            <Button text="Back" href="/work" />
+            <Button text="Back" href="/work#design" />
             <div className="text-4xl font-semibold mt-5">
               Turient: All-in-One Platform For All Your Teaching Needs
             </div>

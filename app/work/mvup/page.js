@@ -11,7 +11,7 @@ export default function Mvup() {
       <div>
         <div className="bg-white w-full">
           <div className="max-w-[1200px] mx-auto font-crimson py-14">
-            <Button text="Back" href="/work" />
+            <Button text="Back" href="/work#design" />
             <div className="text-3xl font-semibold mt-5">MVUP</div>
             <div className="bg-[#F8E8FF] p-3 rounded-xl text-2xl font-semibold mt-8">
               My Role: <br />

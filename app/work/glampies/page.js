@@ -415,7 +415,7 @@ export default function Glampies() {
                   />
                   <div
                     onClick={() => {
-                      window.location.assign("https://theglampies.com/");
+                      window.location.assign("https://theglampies.com/glampies-cafe");
                     }}
                     className="rounded-3xl text-sm mt-4 font-semibold bg-[#2F865F] text-white py-2 px-5 w-fit drop-shadow-sm cursor-pointer mx-auto"
                   >

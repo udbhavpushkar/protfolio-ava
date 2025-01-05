@@ -5,9 +5,9 @@ import { FaArrowRight } from "react-icons/fa6"
 const WIN_DATA = [
     { image: "win1.png", text: "University Gold Medalist: President’s Award" },
     { image: "win2.png", text: "Achieved CSPO & CSM Certifications" },
-    { image: "win3.png", text: "Best Outgoing Student Award" },
     { image: "win4.png", text: "Guest Speaker at DY Patil College" },
     { image: "win5.png", text: `Anchoring Events & Recording Educational\nE-Learning Content` },
+    { image: "win3.png", text: "Best Outgoing Student Award" },
 ]
 
 const Wins = () => {

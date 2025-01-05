@@ -342,19 +342,19 @@ export default function Mvup() {
             <div className="text-3xl font-semibold">
               Marketing Reel for MVUP:{" "}
             </div>
-            <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
-              <div className="w-[375px] ">
-                <iframe
-                  width="100%"
-                  height="600"
-                  src="https://www.youtube.com/embed/jFSl-CB-S4E?autoplay=1&loop=1&playlist=jFSl-CB-S4E"
-                  title="YouTube Shorts Video"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  className="rounded-lg"
-                ></iframe>
-              </div>
+              <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
+                <div className="w-[375px] ">
+                  <iframe
+                    width="100%"
+                    height="600"
+                    src="https://www.youtube.com/embed/jFSl-CB-S4E?autoplay=1&loop=1&playlist=jFSl-CB-S4E&mute=1"
+                    title="YouTube Shorts Video"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="rounded-lg"
+                  ></iframe>
+                </div>
             </div>
           </div>
         </div>

@@ -34,13 +34,15 @@ export default function About() {
                             </Link>
                         </div>
                     </div>
-                    <div className="my-16 py-4 px-22 flex gap-4">
+                    <div className="my-16 py-4 px-22 flex gap-4 items-center justify-center">
                         <div>
                             <div className="text-5xl font-bold mb-6">Not a Dreamer, A Doer</div>
                             <div className="text-3xl font-crimson">
                                 <p className="mb-3">I’m a Writer, Design Thinker and a ‘Versatile Performer’
+                                    <br />
                                     who thrives under spotlight. </p>
                                 <p>Writing has always been my passion & escape,
+                                    <br />
                                     so eventually, I decided to turn it into my full-time career.</p>
                             </div>
                         </div>
@@ -59,19 +61,19 @@ export default function About() {
                                 <Image alt="avantika3" src="/images/avantika3.png" width={434} height={550} />
                             </div>
                             <div>
-                                <div className="text-5xl">What Do i Do?</div>
-                                <div className="font-crimson">
+                                <div className="text-5xl font-bold">What Do I Do?</div>
+                                <div className="font-crimson ml-4">
                                     <div className="my-5 text-2xl">
                                         I live & breathe Content! <br />
-                                        It’s my elixir and my preferred poison
+                                        It’s my elixir and my preferred poison.
                                     </div>
                                     <div className="mb-4 text-2xl">
                                         <div className="font-medium">I write <span className="font-semibold"> user-centric conversations: </span></div>
-                                        <div className="text-lg">UX copy, interactive content, emails & buttons, buttons, buttons </div>
+                                        <div className="text-lg">UX copy, interactive content, emails & buttons, buttons, buttons... </div>
                                     </div>
                                     <div className="mb-4 text-2xl">
                                         <div className="font-medium">I narrate <span className="font-semibold"> product stories:</span> </div>
-                                        <div className="text-lg">Video scripts, website content and content strategy </div>
+                                        <div className="text-lg">Video scripts, website content and content strategy. </div>
                                     </div>
                                     <div className="mb-4 text-2xl">
                                         <div className="font-medium">I build <span className="font-semibold"> personalities:</span></div>
@@ -79,8 +81,8 @@ export default function About() {
                                     </div>
                                     <div className="mb-4 text-2xl">
                                         <div className="font-medium">I also do a bit of <span className="font-semibold"> research:</span> </div>
-                                        <div className="text-lg">Create lots of notes + I`m always on a hunt to track down the <br />
-                                            best word choices to enhance user experience</div>
+                                        <div className="text-lg">Create lots of notes + I&apos;m always on a hunt to track down the <br />
+                                            best word choices to enhance user experience.</div>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +114,7 @@ export default function About() {
                                         To build products that not only meet user needs but also exceed <br />
                                         them, driving business growth and customer satisfaction.
                                     </div>
-                                    <div className="text-sm italic text-[#626262]">I mean, who doesn`t love a win-win, right?! 😎</div>
+                                    <div className="text-sm italic text-[#626262]">I mean, who doesn&apos;t love a win-win, right?! 😎</div>
                                 </div>
                                 <div className="mb-4 font-crimson">
                                     <div className="font-semibold mb-2 text-2xl">My Thought Process:</div>

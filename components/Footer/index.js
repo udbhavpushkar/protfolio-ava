@@ -23,7 +23,7 @@ const Footer = (props) => {
         <div className="mt-28">
           <div className="text-center text-xl  mb-3">Lets Connect</div>
           <div className="flex justify-center mb-4 gap-4">
-            <Link href="">
+            <Link href="https://www.instagram.com/avantikaa_nayak?igsh=M2ozcDU0ZWpwMXAw&utm_source=qr" target="_blank">
               <Image
                 alt="insta"
                 src="/images/svgs/insta.svg"
@@ -31,7 +31,7 @@ const Footer = (props) => {
                 height={20}
               />
             </Link>
-            <Link href="">
+            <Link href="https://www.linkedin.com/in/avantika-nayak" target="_blank">
               <Image
                 alt="insta"
                 src="/images/svgs/linkedin.svg"
@@ -39,7 +39,7 @@ const Footer = (props) => {
                 height={20}
               />
             </Link>
-            <Link href="">
+            <Link href="mailto:avantikanayak68184@gmail.com" target="_blank">
               <Image
                 alt="insta"
                 src="/images/svgs/gmail.svg"

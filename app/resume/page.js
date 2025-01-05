@@ -46,7 +46,7 @@ export default function Resume() {
                                 </div>
                             </div>
                             <Link href="">
-                                <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">See Resume - PDF</div>
+                                <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">View Resume - PDF</div>
                             </Link>
                         </div>
                     </div>

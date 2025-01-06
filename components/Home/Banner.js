@@ -4,8 +4,8 @@ import React from "react";
 
 const Banner = () => {
     return <div className="flex pt-5 pb-16 max-w-[1325px] mx-auto">
-        <div className="relative h-100 w-[60%] left-[-5%]">
-            <Image alt="home-pic-1" src="/images/svgs/home-ava.svg" layout="fill" />
+        <div className="relative h-100 w-[60%] left-[-4%] ">
+            <Image alt="home-pic-1" src="/images/svgs/resume-image.svg" layout="fill" />
         </div>
         <div className="w-[40%]">
             <div className="flex text-7xl font-extrabold items-end">

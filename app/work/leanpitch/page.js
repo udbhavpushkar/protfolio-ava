@@ -339,7 +339,7 @@ export default function Leanpitch() {
             <div className="my-5 bg-[#202D41] rounded-xl shadow-pink ">
               <Image
                 className="mx-auto "
-                src="/images/lp7-try.png"
+                src="/images/lp7.png"
                 alt="design"
                 height={1241}
                 width={1200}

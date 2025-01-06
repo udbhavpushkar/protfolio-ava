@@ -4,6 +4,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import { Glampies, Leanpitch, Mvup, Turient } from "@/components/Home/Projects";
+import Button from "@/components/Button";
 import VideoPlayer from "@/components/VideoPlayer";
 import ContentDesignWithImage from "@/components/ContentDesignWithImage";
 import FooterBanner from "@/components/Footer/FooterBanner";
@@ -16,7 +17,8 @@ export default function ContentDesign() {
         <div className="bg-white w-full">
           <FadeInSection>
             <div className="max-w-[1100px] mx-auto font-crimson py-14">
-              <div className="text-5xl font-semibold">
+              <Button text="Back" href="/work#design" />
+              <div className="text-5xl mt-4 font-semibold">
                 Content Design Challenge
               </div>
               <div

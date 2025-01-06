@@ -60,6 +60,9 @@ export const CONTENT_STRATEGIST_2 = [
     },
 ]
 
+export const CONTENT_STRATEGIST_0 = [
+    "/images/single-image.png",
+]
 export const CONTENT_STRATEGIST_3 = [
     "/images/carousal/1.png",
     "/images/carousal/2.png",

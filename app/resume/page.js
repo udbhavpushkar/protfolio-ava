@@ -25,9 +25,22 @@ export default function Resume() {
             <div className="max-w-[1325px] mx-auto font-crimson">
                 <FadeInSection>
                     <div className="flex py-4 px-24 justify-between items-center">
-                        <div>
-                            <Image src="/images/resume-banner1.png" alt="banner" height={468} width={569} />
+                        {/* <div className="">
+                            <Image src="/images/resume-banner.png" alt="banner" height={468} width={600} className="mt-12" />
+                        </div> */}
+                        <div className="flex flex-col items-center justify-center w-[650px] h-[550px] gap-4 rounded-[45px] bg-[#FFE5C7] mt-4">
+                            <Image
+                                alt="resume-image"
+                                src="/images/svgs/resume-image.svg"
+                                width={602}
+                                height={420}
+                                className="mb-2" // Use margin-bottom here for spacing between the image and text
+                            />
+                            <div className="text-[#652607] font-crimson text-[24px] font-normal leading-[32px] text-center from-font text-decoration-skip-ink-none">
+                                3+ Years | 4+ Products <br /> 0 Failures, Only Learnings
+                            </div>
                         </div>
+
                         <div className="w-fit">
                             <div className="flex items-end justify-between">
                                 <div className="text-4xl">

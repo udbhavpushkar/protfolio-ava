@@ -4,15 +4,15 @@ import MediaCarousel from "../MediaCarousel";
 
 const WinDisplay = ({ data }) => {
     const { mediaItems, title, text, reverse } = data
-    return <div className="grid py-4 px-36 grid-cols-2 gap-6">
+    return <div className="grid items-center justify-center py-4 px-36 grid-cols-2 gap-20">
         <div className={reverse ? "order-last" : ""}>
-            <div className="mb-4 text-4xl font-semibold">
-                <Image src="/images/svgs/win.svg" alt="wins" width={75} height={60} />
+            <div className="flex justify-center items-center gap-6 mb-4 text-3xl font-semibold">
+                <Image src="/images/svgs/win.svg" alt="wins" width={85} height={60} />
                 <span className="">{title}</span>
             </div>
             <div className="text-2xl font-medium">{text}</div>
         </div>
-        <div>
+        <div className="flex justify-center items-center ">
             <MediaCarousel mediaItems={mediaItems} width={500} height={300} />
         </div>
     </div>

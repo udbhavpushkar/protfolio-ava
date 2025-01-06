@@ -23,7 +23,7 @@ export const STRENGTHS = [
   },
   {
     title: "Information Architecture:",
-    text: "Structuring and organising content for optimal user navigation",
+    text: "Structuring and organising content for optimal user navigation.",
   },
   {
     title: "Systems Thinking:",

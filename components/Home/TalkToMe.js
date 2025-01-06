@@ -28,7 +28,7 @@ const TalkToMe = () => {
                     <div className="text-left">
                         <div className="font-semibold text-xl">Avantika Nayak</div>
                         <div className="mb-3 font-medium">Content Designer | Content Strategist | Content Creator</div>
-                        <div onClick={() => { window.open("https://www.linkedin.com/in/avantika-nayak/", "_blank") }} className="border-[#2A67BC] border-2 w-fit py-1 px-4 rounded-3xl font-medium cursor-pointer text-[#2A67BC]">View Profile</div>
+                        <div onClick={() => { window.open("https://www.linkedin.com/in/avantika-nayak/", "_blank") }} className="border-[#2A67BC] border-2 w-fit py-1 px-4 rounded-3xl  font-bold cursor-pointer text-[#2A67BC]">View Profile</div>
                     </div>
                 </div>
             </div>

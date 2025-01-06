@@ -13,12 +13,12 @@ const Navbar = () => {
     const router = useRouter()
     const pathname = usePathname()
 
-    return <div className="w-full fixed navbar" style={{ top: "0px", zIndex: "40" }}>
-        <div className='flex py-4 px-16 justify-between items-center max-w-[1325px] mx-auto'>
+    return <div className="w-full fixed navbar" style={{ top: "0px", zIndex: "40" }}> 
+        <div className='flex py-2 px-16 justify-between items-center max-w-[1325px] mx-auto'>
             <div onClick={() => { router.push("/") }} className="flex items-center cursor-pointer">
-                <div className="text-2xl font-bold">Avantika Nayak</div>
+                <div className="text-xl font-bold">Avantika Nayak</div>
                 <div>
-                    <Image alt="feather" src="/images/svgs/feather.svg" width={40} height={80} />
+                    <Image alt="feather" src="/images/svgs/feather.svg" width={35} height={70} />
                 </div>
             </div>
             <div className="flex">

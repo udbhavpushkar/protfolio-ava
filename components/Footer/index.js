@@ -60,6 +60,11 @@ const Footer = (props) => {
               </Link>
             </div>
             <div>
+              <Link href="/content-design" className="hover:underline">
+                Content Design Challenge
+              </Link>
+            </div>
+            <div>
               <Link href="/work#strategist" className="hover:underline">
                 Content Strategist
               </Link>

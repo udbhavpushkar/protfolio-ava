@@ -41,7 +41,7 @@ export default function Work() {
             </FadeInSection>
             <div className="w-full h-3"></div>
             <FadeInSection>
-                <div className="bg-white w-full" id="design">
+                <div className="bg-white w-full scroll-mt-10" id="design">
                     <div className="max-w-[1325px] mx-auto font-crimson py-14">
                         <div className="text-4xl font-semibold">As a Content Designer</div>
                         <div className="text-2xl my-5">
@@ -64,7 +64,7 @@ export default function Work() {
                     User Persona | Information Architecture | Taxonomy | Navigation Nomenclature
                 </div>
             </div>
-            <div className="bg-white w-full" id="strategist">
+            <div className="bg-white w-full scroll-mt-10" id="strategist">
                 <FadeInSection>
                     <div className="max-w-[1325px] mx-auto font-crimson py-14">
                         <div className="text-4xl font-semibold">As a Content Strategist</div>
@@ -118,7 +118,7 @@ export default function Work() {
                     </div>
                 </div>
             </FadeInSection>
-            <div className="bg-white w-full" id="creator">
+            <div className="bg-white w-full scroll-mt-10" id="creator">
                 <div className="max-w-[1325px] mx-auto font-crimson py-14">
                     <FadeInSection>
                         <div className="text-4xl font-semibold">Work as a Content Creator</div>

@@ -15,7 +15,7 @@ export default function Resume() {
     useEffect(() => {
         const intervalId = setInterval(() => {
             setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
-        }, 5000);
+        }, 1000);
 
         return () => clearInterval(intervalId);
     }, [words.length]);
@@ -26,7 +26,7 @@ export default function Resume() {
                 <FadeInSection>
                     <div className="flex py-4 px-24 justify-between items-center">
                         <div>
-                            <Image src="/images/resume-banner.png" alt="banner" height={468} width={569} />
+                            <Image src="/images/resume-banner1.png" alt="banner" height={468} width={569} />
                         </div>
                         <div className="w-fit">
                             <div className="flex items-end justify-between">
@@ -43,11 +43,25 @@ export default function Resume() {
                                 <div className="italic font-medium">Content &nbsp;</div>
                                 <div className="font-semibold">
                                     <span>{words[currentWordIndex]}</span>
+                                    <div className="mt-2">
+                                        <Image alt="line under words" src="/images/svgs/resume-line.svg" width={232} height={29} />
+                                    </div>
                                 </div>
                             </div>
-                            <Link href="">
-                                <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">View Resume - PDF</div>
-                            </Link>
+                            <div className="flex flex-col">
+                                <Link href="https://docs.google.com/document/d/110666TuAN_gosqA-mFXTGwo4l02_tz4dx3EwKRARpJ4/edit?usp=sharing" legacyBehavior>
+                                    <a target="_blank" rel="noopener noreferrer">
+                                        <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">
+                                            View Resume
+                                        </div>
+                                    </a>
+                                </Link>
+                                <Link href="https://docs.google.com/document/d/110666TuAN_gosqA-mFXTGwo4l02_tz4dx3EwKRARpJ4/export?format=pdf" >
+                                    <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">
+                                        Download Resume - PDF
+                                    </div>
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </FadeInSection>

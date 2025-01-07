@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 
 const MajorProjects = () => {
     const router = useRouter()
-    return <div className="py-6 max-w-[1325px] mx-auto">
+    return <div className="py-6 max-w-[1325px] mx-auto scroll-mt-4" id="major">
         <div className="text-5xl  font-bold my-6 flex justify-center">
             <div className="mr-3">
                 <Image src="/images/svgs/book.svg" alt="banner" height={30} width={40} />

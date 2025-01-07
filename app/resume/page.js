@@ -36,7 +36,7 @@ export default function Resume() {
                                 height={420}
                                 className="mb-2" // Use margin-bottom here for spacing between the image and text
                             />
-                            <div className="text-[#652607] font-crimson text-[24px] font-normal leading-[32px] text-center from-font text-decoration-skip-ink-none">
+                            <div className="text-[#652607] font-crimson text-[24px] font-semibold leading-[32px] text-center from-font text-decoration-skip-ink-none">
                                 3+ Years | 4+ Products <br /> 0 Failures, Only Learnings
                             </div>
                         </div>
@@ -78,7 +78,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </FadeInSection>
-                <div className="my-16 py-4 px-22">
+                <div className="my-16 ml-20 py-4 px-22">
                     <FadeInSection>
                         <div className="mb-8">
                             <div className="text-5xl font-bold mb-6">Strengths</div>

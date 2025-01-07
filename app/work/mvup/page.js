@@ -232,14 +232,6 @@ export default function Mvup() {
               />
 
             </div>
-
-            {/* <Image
-              className="mx-auto rounded-lg"
-              src="/images/mvp3-frame.png"
-              alt="mvp3"
-              height={733}
-              width={1200}
-            /> */}
             <div className=" text-2xl mt-8">
               <ul className="list-disc ml-8">
                 <li>
@@ -263,15 +255,6 @@ export default function Mvup() {
 
               </div>
             </div>
-            {/* <div>
-                  <Image
-              className="mx-auto rounded-lg"
-              src="/images/mvp4-frame.png"
-              alt="mvp4"
-              height={625}
-              width={1200}
-            />
-            </div> */}
           </div>
         </div>
         <div className="bg-white w-full">
@@ -290,28 +273,19 @@ export default function Mvup() {
               />
               <Image
                 className="mx-auto rounded-lg"
-                src="/images/mvp6.png"
+                src="/images/mvp6a.png"
                 alt="mvp4"
                 height={439.24}
                 width={918}
               />
               <Image
                 className="mx-auto rounded-lg"
-                src="/images/mvp7.png"
+                src="/images/mvp7a.png"
                 alt="mvp4"
                 height={439.24}
                 width={918}
               />
             </div>
-            {/* <div>
-              <Image
-                className="mx-auto p-5  rounded-lg"
-                src="/images/mvp5-frame.png"
-                alt="mvp3"
-                height={1616}
-                width={1200}
-              />
-            </div> */}
           </div>
         </div>
         <div className="bg-white w-full">
@@ -326,15 +300,6 @@ export default function Mvup() {
                 width={246}
               />
             </div>
-            {/* <div>
-              <Image
-                className="mx-auto p-5  rounded-lg"
-                src="/images/mvp6-frame.png"
-                alt="mvp3"
-                height={632}
-                width={1200}
-              />
-            </div> */}
           </div>
         </div>
         <div className="bg-white w-full">
@@ -342,19 +307,19 @@ export default function Mvup() {
             <div className="text-3xl font-semibold">
               Marketing Reel for MVUP:{" "}
             </div>
-              <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
-                <div className="w-[375px] ">
-                  <iframe
-                    width="100%"
-                    height="600"
-                    src="https://www.youtube.com/embed/jFSl-CB-S4E?autoplay=1&loop=1&playlist=jFSl-CB-S4E&mute=1"
-                    title="YouTube Shorts Video"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="rounded-lg"
-                  ></iframe>
-                </div>
+            <div className="flex justify-center items-center mt-5  shadow-pink p-6 bg-[#F2F2F2] w-[1200px] rounded">
+              <div className="w-[375px] ">
+                <iframe
+                  width="100%"
+                  height="600"
+                  src="https://www.youtube.com/embed/jFSl-CB-S4E?autoplay=1&loop=1&playlist=jFSl-CB-S4E&mute=1"
+                  title="YouTube Shorts Video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>

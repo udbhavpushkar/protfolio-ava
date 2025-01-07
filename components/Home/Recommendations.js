@@ -1,9 +1,10 @@
 import Image from "next/image";
-import React from "react";
+import React, { useRef } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/navigation";
+
 import "swiper/css/pagination";
 
 // Recommendations Data
@@ -11,18 +12,18 @@ const recommendations = [
   {
     name: "Aditi Shinde",
     title: "Founder, Hybrid Inks Studio",
-    text: "I had the pleasure of mentoring Avantika Nayak during her 3-month internship at Hybrid Inks Studio, where she consistently impressed with her ability to craft engaging and well-researched content. Her attention to detail, creativity, and adaptability to our brand's tone were exceptional, and she quickly understood what resonated with our audience. Avantika not only met deadlines but also proactively suggested fresh ideas, showcasing a strong work ethic and initiative. I'm confident she will excel in her future endeavors and highly recommend her to any organization looking for a talented content writer.",
+    text: "I had the pleasure of mentoring Avantika Nayak during her 3-month internship at Hybrid Inks Studio, where she consistently impressed with her ability to craft engaging and well-researched content. Her attention to detail, creativity, and adaptability to our brand's tone were exceptional, and she quickly understood what resonated with our audience. Avantika not only met deadlines but also proactively suggested fresh ideas, showcasing a strong work ethic and initiative.Highly recommend her to any organization looking for a talented content writer.",
     profilePicture: "/images/recom1.png",
   },
   {
     name: "Pravat Ranjan",
-    title: "Head of Design, Learnpitch",
+    title: "Head of Design, Leanpitch",
     text: "Avantika is an incredibly talented content strategist, a sublime storyteller and an empathetic copywriter. Her ability to think creatively and adapt to changing needs, especially in a fast-paced environment is what sets her apart. Bringing fresh perspectives to the table is her forte. She is proactive in seeking feedback and continuously improving her craft. As a person she brings a ton of vibrant energy to the team, helping create a dynamic and cohesive collaborative space. She will surely continue to excel and make a positive impact wherever she goes.",
     profilePicture: "/images/recom2.png",
   },
   {
     name: "Shubhanjana Sikdar",
-    title: "Head of Marketing, Learnpitch",
+    title: "Head of Marketing, Leanpitch",
     text: "Avantika consistently demonstrates exceptional diligence and creativity in every task assigned, ensuring complete involvement in project delivery. Her impeccable work ethic is remarkable for her career stage. She consistently delivers effective scripts and content designs within tight deadlines, upholding brand value. Her clarity, adaptability, and leadership skills are particularly commendable.",
     profilePicture: "/images/recom3.png",
   },
@@ -35,6 +36,15 @@ const recommendations = [
 ];
 
 const Recommendations = () => {
+  const swiperRef = useRef(null); // Create a reference to the Swiper instance
+  // Custom slide functions
+  const handleNext = () => {
+    swiperRef.current.swiper.slideNext();
+  };
+  const handlePrev = () => {
+    swiperRef.current.swiper.slidePrev();
+  };
+
   return (
     <div className="bg-white font-crimson py-10 m-auto">
       {/* Header */}
@@ -53,12 +63,19 @@ const Recommendations = () => {
       </div>
 
       {/* Carousel */}
-      <div className="max-w-5xl mx-auto">
+      <div className="relative max-w-5xl mx-auto">
+        <button
+          className="absolute top-1/2 left-[-60px] z-10 p-4 bg-[#A80021] text-white rounded-full shadow-md hover:bg-[#8b0018] transition duration-300 transform -translate-y-1/2"
+          onClick={handlePrev}
+        >
+          <FaArrowLeft size={20} />
+        </button>
         <Swiper
-          modules={[Navigation, Pagination]}
+          ref={swiperRef}
+          modules={[Pagination]}
           spaceBetween={20}
           slidesPerView={1}
-          navigation
+
           pagination={{ clickable: true }}
           breakpoints={{
             640: { slidesPerView: 1 }, // Single slide for small screens
@@ -95,6 +112,12 @@ const Recommendations = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <button
+          className="absolute top-1/2 right-[-60px] z-10 p-4 bg-[#A80021] text-white rounded-full shadow-md hover:bg-[#8b0018] transition duration-300 transform -translate-y-1/2"
+          onClick={handleNext}
+        >
+          <FaArrowRight size={20} />
+        </button>
       </div>
     </div>
   );

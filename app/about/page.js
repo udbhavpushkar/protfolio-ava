@@ -12,9 +12,12 @@ export default function About() {
         <div>
             <FadeInSection>
                 <div className="max-w-[1325px] mx-auto">
-                    <div className="flex py-4 px-36 justify-between items-center">
-                        <div>
-                            <Vimeo video="1012429720" />
+                    <div className="flex py-4 px-40 justify-between items-center">
+                        <div className="mt-10 mx-10">
+                            <Vimeo video="1012429720" className="w-full"
+                                width="300"
+                                height="500"
+                            />
                         </div>
                         <div className="w-fit">
                             <div className="flex text-7xl font-extrabold items-end">
@@ -24,13 +27,16 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="text-7xl font-extrabold">Namaste !</div>
-                            <div className="font-medium mt-8 text-4xl leading-snug">
-                                <div>I’m Avantika Nayak, a </div>
+                            <div className="font-crimson font-medium mt-8 text-4xl leading-snug">
+                                <div>I&rsquo;m Avantika Nayak, a </div>
                                 <div className="text-[#A80021] text-[40px]">Content Designer & Strategist</div>
                                 <div>based in India. </div>
+                                <div>Member of the <span className="relative inline-block">&lsquo;Can Do&rsquo;
+                                    <img src="/images/svgs/resume-line.svg" alt="Line Design" className="absolute bottom-[-10px] left-0 w-full max-w-[200px]" />
+                                </span> club!</div>
                             </div>
                             <Link href="/resume">
-                                <div className="text-2xl rounded-[40px] mt-4 font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">See Resume</div>
+                                <div className="text-2xl rounded-[40px] mt-4 font-crimson font-semibold bg-[#A80021] text-white py-3 px-5 w-fit">See Resume</div>
                             </Link>
                         </div>
                     </div>

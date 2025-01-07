@@ -12,7 +12,7 @@ export default function Wins() {
     <Layout>
       <div>
         <div className="max-w-[1325px] mx-auto font-crimson">
-          <div className="flex justify-center">
+          <div className="flex justify-center mb-10">
             <Image
               src="/images/svgs/win.svg"
               alt="wins"
@@ -22,7 +22,9 @@ export default function Wins() {
           </div>
           {items.map((item, index) => (
             <FadeInSection key={`item_${index}`}>
-              <WinDisplay data={item} />
+              <div className="mb-16">
+                <WinDisplay data={item} />
+              </div>
             </FadeInSection>
           ))}
         </div>

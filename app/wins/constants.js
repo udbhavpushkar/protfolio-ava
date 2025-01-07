@@ -22,7 +22,7 @@ export const items = [
          and CSM (Certified ScrumMaster), I gained deep insights into agile and dynamic 
          work environments. These certifications have equipped me with knowledge of product
           development processes, sprints, retrospectives, agile methodologies,
-           and more, enabling me to write numerous expert blogs on Agile and Scrum topics.`,
+         enabling me to write numerous expert blogs on Agile and Scrum topics.`,
         reverse: true
     },
     {
@@ -31,10 +31,10 @@ export const items = [
             { type: 'image', src: '/images/win/w32.png' },
             { type: 'image', src: '/images/win/w33.png' },
         ],
-        title: `Anchoring Events & Recording Educational E-Learning Content`,
+        title: `Anchored Events & Recorded Educational E-Learning Content`,
         text: `Successfully anchored various events and recorded educational e-learning
          content, showcasing my ability to engage audiences and deliver informative 
-         and compelling videos`,
+         and compelling videos.`,
         reverse: false
     },
     {

@@ -17,7 +17,7 @@ const ImageGallery = ({ list }) => {
 
     return (
         <div className="py-4">
-            <div className="flex flex-nowrap overflow-x-auto space-x-4 scrollbar-hide">
+            <div className="flex flex-nowrap gap-20 overflow-x-auto space-x-10 scrollbar-hide">
                 {list.map((item, index) => (
                     <div key={index} className="text-center w-[360px]">
                         <Image
@@ -28,7 +28,7 @@ const ImageGallery = ({ list }) => {
                             className="cursor-pointer rounded-lg"
                             onClick={() => openModal(item.video)}
                         />
-                        <p className="mt-2 text-sm text-gray-600">{item.text}</p>
+                        <p className="mt-2 text-md text-black font-semibold">{item.text}</p>
                     </div>
                 ))}
             </div>

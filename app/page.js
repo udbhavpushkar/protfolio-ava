@@ -17,10 +17,10 @@ export default function Home() {
         <Banner />
       </FadeInSection>
       <FadeInSection>
-        <ContentDesign />
+        <MajorProjects />
       </FadeInSection>
       <FadeInSection>
-        <MajorProjects />
+        <ContentDesign />
       </FadeInSection>
       <FadeInSection>
         <AboutMe />

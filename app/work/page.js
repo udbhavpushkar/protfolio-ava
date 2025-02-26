@@ -37,10 +37,6 @@ export default function Work() {
                 </div>
             </div>
             <FadeInSection>
-                <ContentDesign />
-            </FadeInSection>
-            <div className="w-full h-3"></div>
-            <FadeInSection>
                 <div className="bg-white w-full scroll-mt-10" id="design">
                     <div className="max-w-[1325px] mx-auto font-crimson py-14">
                         <div className="text-4xl font-semibold">As a Content Designer</div>
@@ -57,6 +53,10 @@ export default function Work() {
                         </div>
                     </div>
                 </div>
+            </FadeInSection>
+            <div className="w-full h-3"></div>
+            <FadeInSection>
+                <ContentDesign />
             </FadeInSection>
             <div className="w-full bg-[#ECEDFF]">
                 <div className="max-w-[1325px] mx-auto font-crimson text-[#545794] text-center py-3 font-semibold">
